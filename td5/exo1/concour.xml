@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concours>
+    <grade nom="Technicien Supérieur">
+        <etablissement nom="Institut National de Technologie">
+            <candidat id="T002">
+                <nom>Mehdi</nom>
+                <prenom>Rania</prenom>
+                <matieres>
+                    <matiere nom="Mathématiques" coefficient="3" note="5"/>
+                    <matiere nom="Physique" coefficient="2" note="4"/>
+                    <matiere nom="Informatique" coefficient="3" note="14"/>
+                </matieres>
+            </candidat>
+            <candidat id="T001">
+                <nom>Benali</nom>
+                <prenom>Yasmine</prenom>
+                <matieres>
+                    <matiere nom="Mathématiques" coefficient="3" note="12"/>
+                    <matiere nom="Physique" coefficient="2" note="8"/>
+                    <matiere nom="Informatique" coefficient="3" note="15"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Institut National de Formation Professionnelle">
+            <candidat id="T003">
+                <nom>Kendouze</nom>
+                <prenom>Amine</prenom>
+                <matieres>
+                    <matiere nom="Programmation" coefficient="4" note="14"/>
+                    <matiere nom="Réseaux" coefficient="3" note="10"/>
+                    <matiere nom="Systèmes Informatiques" coefficient="3" note="13"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Institut Technique des Industries Électroniques">
+            <candidat id="T004">
+                <nom>Benzina</nom>
+                <prenom>Lilia</prenom>
+                <matieres>
+                    <matiere nom="Électronique" coefficient="3" note="16"/>
+                    <matiere nom="Conception Numérique" coefficient="2" note="14"/>
+                    <matiere nom="Télécommunications" coefficient="3" note="12"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Centre de Formation et d'Apprentissage">
+            <candidat id="T005">
+                <nom>Boudjellal</nom>
+                <prenom>Kamel</prenom>
+                <matieres>
+                    <matiere nom="Électricité Industrielle" coefficient="3" note="9"/>
+                    <matiere nom="Électromécanique" coefficient="3" note="4"/>
+                    <matiere nom="Maintenance" coefficient="3" note="11"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Institut National de Génie Civil">
+            <candidat id="T006">
+                <nom>Bensalem</nom>
+                <prenom>Inès</prenom>
+                <matieres>
+                    <matiere nom="Génie Civil" coefficient="3" note="10"/>
+                    <matiere nom="Topographie" coefficient="2" note="11"/>
+                    <matiere nom="Béton Armé" coefficient="3" note="5"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+    </grade>
+    <!--  🎓 Grade : Ingénieur  -->
+    <grade nom="Ingénieur">
+        <etablissement nom="École Nationale Polytechnique d'Oran">
+            <candidat id="I001">
+                <nom>Saadi</nom>
+                <prenom>Karim</prenom>
+                <matieres>
+                    <matiere nom="Analyse Mathématique" coefficient="4" note="13"/>
+                    <matiere nom="Algèbre" coefficient="3" note="9"/>
+                    <matiere nom="Algorithmes" coefficient="3" note="16"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Université des Sciences et Technologies Houari Boumediene">
+            <candidat id="I002">
+                <nom>Hamdani</nom>
+                <prenom>Linda</prenom>
+                <matieres>
+                    <matiere nom="Génie Électrique" coefficient="3" note="14"/>
+                    <matiere nom="Ondes Électromagnétiques" coefficient="2" note="12"/>
+                    <matiere nom="Électronique" coefficient="3" note="15"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Université Constantine 2 - Abdelhamid Mehri">
+            <candidat id="I003">
+                <nom>Chibani</nom>
+                <prenom>Ahmed</prenom>
+                <matieres>
+                    <matiere nom="Mécanique" coefficient="3" note="12"/>
+                    <matiere nom="Génie Énergétique" coefficient="2" note="13"/>
+                    <matiere nom="Conception Industrielle" coefficient="3" note="14"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="École Supérieure en Informatique - Sidi Bel Abbes">
+            <candidat id="I004">
+                <nom>Belhaj</nom>
+                <prenom>Sara</prenom>
+                <matieres>
+                    <matiere nom="Systèmes d'Information" coefficient="3" note="15"/>
+                    <matiere nom="Sécurité Informatique" coefficient="2" note="14"/>
+                    <matiere nom="Administration Réseaux" coefficient="3" note="16"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+        <etablissement nom="Université d'Alger 1 - Benyoucef Benkhedda">
+            <candidat id="I005">
+                <nom>Merabet</nom>
+                <prenom>Yacine</prenom>
+                <matieres>
+                    <matiere nom="Électronique Industrielle" coefficient="3" note="11"/>
+                    <matiere nom="Automatisme et Régulation" coefficient="3" note="13"/>
+                    <matiere nom="Robotique" coefficient="3" note="14"/>
+                </matieres>
+            </candidat>
+        </etablissement>
+    </grade>
+</concours>

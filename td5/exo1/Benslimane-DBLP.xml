@@ -1,0 +1,1540 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="code.xsl"?>
+<dblpperson name="Sidi Mohamed Benslimane" pid="99/6782" n="86">
+    <person key="homepages/99/6782" mdate="2019-08-13">
+        <author pid="99/6782">Sidi Mohamed Benslimane</author>
+        <url>https://scholar.google.com/citations?user=TiaMf80AAAAJ</url>
+        <url>https://orcid.org/0000-0002-7008-7434</url>
+        <note type="affiliation">&#201;cole Sup&#233;rieure en Informatique, Sidi Bel-Abb&#233;s,
+            Algeria</note>
+    </person>
+    <r>
+        <inproceedings key="conf/medi/AbdelillahNOB23" mdate="2024-02-05">
+            <author orcid="0009-0006-7187-1534" pid="365/1374">Fidma Mohamed Abdelillah</author>
+            <author orcid="0009-0001-1786-103X" pid="356/3487">Hamour Nora</author>
+            <author orcid="0000-0002-7997-8225" pid="33/3427">Samir Ouchani</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Hybrid Data-Driven and Knowledge-Based Predictive Maintenance Framework in the
+                Context of Industry 4.0.</title>
+            <pages>319-337</pages>
+            <year>2023</year>
+            <booktitle>MEDI</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-49333-1_23</ee>
+            <crossref>conf/medi/2023</crossref>
+            <url>db/conf/medi/medi2023.html#AbdelillahNOB23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wetice/AbdelillahNOB23" mdate="2024-04-15">
+            <author orcid="0009-0006-7187-1534" pid="365/1374">Fidma Mohamed Abdelillah</author>
+            <author orcid="0009-0001-1786-103X" pid="356/3487">Hamour Nora</author>
+            <author orcid="0000-0002-7997-8225" pid="33/3427">Samir Ouchani</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Predictive Maintenance Approaches in Industry 4.0: A Systematic Literature
+                Review.</title>
+            <pages>1-6</pages>
+            <year>2023</year>
+            <booktitle>WETICE</booktitle>
+            <ee>https://doi.org/10.1109/WETICE57085.2023.10477802</ee>
+            <crossref>conf/wetice/2023</crossref>
+            <url>db/conf/wetice/wetice2023.html#AbdelillahNOB23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wetice/AbdelillahNOB23a" mdate="2024-04-15">
+            <author orcid="0009-0006-7187-1534" pid="365/1374">Fidma Mohamed Abdelillah</author>
+            <author orcid="0009-0001-1786-103X" pid="356/3487">Hamour Nora</author>
+            <author orcid="0000-0002-7997-8225" pid="33/3427">Samir Ouchani</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Predictive Maintenance Approaches in Industry 4.0: A Systematic Literature
+                Review.</title>
+            <pages>1-6</pages>
+            <year>2023</year>
+            <booktitle>WETICE</booktitle>
+            <ee>https://doi.org/10.1109/WETICE57085.2023.10477842</ee>
+            <crossref>conf/wetice/2023</crossref>
+            <url>db/conf/wetice/wetice2023.html#AbdelillahNOB23a</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijhpsa/ElhannaniBKF22" mdate="2025-03-03">
+            <author pid="239/9225">Souad Elhannani</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-1359-6347" pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author pid="320/2150">Mostafa Fechfouch</author>
+            <title>QASIS: a QoC aware stress identification system using machine learning
+                approach.</title>
+            <pages>12-25</pages>
+            <year>2022</year>
+            <volume>11</volume>
+            <journal>Int. J. High Perform. Syst. Archit.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1504/IJHPSA.2022.121881</ee>
+            <url>db/journals/ijhpsa/ijhpsa11.html#ElhannaniBKF22</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/vc/BedjaouiEBS22" mdate="2022-04-27">
+            <author orcid="0000-0002-8932-070X" pid="233/2725">Mohammed Bedjaoui</author>
+            <author orcid="0000-0002-3427-3766" pid="45/10714">Nadia Elouali</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-0927-2814" pid="187/3469">Erhan Sengel</author>
+            <title>Suggestion pattern on online social networks: between intensity, effectiveness
+                and user's satisfaction.</title>
+            <pages>1331-1343</pages>
+            <year>2022</year>
+            <volume>38</volume>
+            <journal>Vis. Comput.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1007/s00371-021-02084-8</ee>
+            <url>db/journals/vc/vc38.html#BedjaouiEBS22</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/hci/BousbaEB22" mdate="2022-12-25">
+            <author orcid="0000-0001-9900-8819" pid="335/0367">Fadia Nouna Bousba</author>
+            <author orcid="0000-0002-3427-3766" pid="45/10714">Nadia Elouali</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Smartphone-Based Input Multimodal Interactions for IoT Environments.</title>
+            <pages>491-497</pages>
+            <year>2022</year>
+            <booktitle>HCI (49)</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-19682-9_62</ee>
+            <crossref>conf/hci/2022-49</crossref>
+            <url>db/conf/hci/hci2022-49.html#BousbaEB22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/candie/AllalSABM21" mdate="2025-03-03">
+            <author pid="295/6046">A. Allal</author>
+            <author orcid="0000-0003-3515-8118" pid="163/8421">M'hammed Sahnoun</author>
+            <author orcid="0000-0001-7619-5076" pid="43/7706">Reda Adjoudj</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-4276-8654" pid="286/8901">Merouane Mazar</author>
+            <title>Multi-agent based simulation-optimization of maintenance routing in offshore wind
+                farms.</title>
+            <pages>107342</pages>
+            <year>2021</year>
+            <volume>157</volume>
+            <journal>Comput. Ind. Eng.</journal>
+            <ee>https://doi.org/10.1016/j.cie.2021.107342</ee>
+            <url>db/journals/candie/candie157.html#AllalSABM21</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/computing/YebdriBLBB21" mdate="2021-09-01">
+            <author orcid="0000-0001-8128-2537" pid="99/7451">Zeyneb El Yebdri</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="15/6263">Fedoua Lahfa</author>
+            <author orcid="0000-0003-2974-3951" pid="30/5025">Mahmoud Barhamgi</author>
+            <author orcid="0000-0001-5700-8060" pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <title>Context-aware recommender system using trust network.</title>
+            <pages>1919-1937</pages>
+            <year>2021</year>
+            <volume>103</volume>
+            <journal>Computing</journal>
+            <number>9</number>
+            <ee>https://doi.org/10.1007/s00607-020-00876-9</ee>
+            <url>db/journals/computing/computing103.html#YebdriBLBB21</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijdsst/BoudaaFHB21" mdate="2022-01-03">
+            <author orcid="0000-0002-1356-4775" pid="130/3909">Boudjemaa Boudaa</author>
+            <author pid="299/6768">Djamila Figuir</author>
+            <author pid="42/6348">Slimane Hammoudi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>DATAtourist: A Constraint-Based Recommender System Using DATAtourisme
+                Ontology.</title>
+            <pages>62-84</pages>
+            <year>2021</year>
+            <volume>13</volume>
+            <journal>Int. J. Decis. Support Syst. Technol.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJDSST.2021040104</ee>
+            <url>db/journals/ijdsst/ijdsst13.html#BoudaaFHB21</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijhci/BellalEBA21" mdate="2021-03-02">
+            <author orcid="0000-0001-6521-5721" pid="236/7112">Zouhir Bellal</author>
+            <author orcid="0000-0002-3427-3766" pid="45/10714">Nadia Elouali</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-5443-6868" pid="55/11174">Cengiz Acart&#252;rk</author>
+            <title>Integrating Mobile Multimodal Interactions based on Programming By
+                Demonstration&#8203;.</title>
+            <pages>418-433</pages>
+            <year>2021</year>
+            <volume>37</volume>
+            <journal>Int. J. Hum. Comput. Interact.</journal>
+            <number>5</number>
+            <ee>https://doi.org/10.1080/10447318.2020.1823688</ee>
+            <url>db/journals/ijhci/ijhci37.html#BellalEBA21</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijoci/MahammedB21" mdate="2022-10-02">
+            <author orcid="0000-0001-7865-5937" pid="185/2341">Nadir Mahammed</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Solving a Business Process Optimization Issue With a Genetic Algorithm Coupled
+                With Multi-Criteria Decision Analysis Method.</title>
+            <pages>71-94</pages>
+            <year>2021</year>
+            <volume>11</volume>
+            <journal>Int. J. Organ. Collect. Intell.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.4018/IJOCI.2021010105</ee>
+            <ee>https://www.wikidata.org/entity/Q108990580</ee>
+            <url>db/journals/ijoci/ijoci11.html#MahammedB21</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/fgcs/MalkiBMBB20" mdate="2025-03-03">
+            <author orcid="0000-0002-2937-9320" pid="116/6753">Abdelhamid Malki</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author pid="30/5025">Mahmoud Barhamgi</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <title>Top-k query optimization over data services.</title>
+            <pages>1-12</pages>
+            <year>2020</year>
+            <volume>113</volume>
+            <journal>Future Gener. Comput. Syst.</journal>
+            <ee>https://doi.org/10.1016/j.future.2020.06.052</ee>
+            <url>db/journals/fgcs/fgcs113.html#MalkiBMBB20</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijdmmm/SekkalBMPB20" mdate="2025-03-03">
+            <author pid="194/6347">Nawel Sekkal</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="62/4946">Michael Mrissa</author>
+            <author pid="132/5812">Cheol Young Park</author>
+            <author orcid="0000-0002-1356-4775" pid="130/3909">Boudjemaa Boudaa</author>
+            <title>Proactive and reactive context reasoning architecture for smart web
+                services.</title>
+            <pages>1-27</pages>
+            <year>2020</year>
+            <volume>12</volume>
+            <journal>Int. J. Data Min. Model. Manag.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1504/IJDMMM.2020.105609</ee>
+            <url>db/journals/ijdmmm/ijdmmm12.html#SekkalBMPB20</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijkbo/KourticheBH20" mdate="2021-12-25">
+            <author orcid="0000-0001-6248-2234" pid="262/1629">Ali Kourtiche</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-9760-3806" pid="84/10933">Sofiane Boukli Hacene</author>
+            <title>OUPIP: Ontology Based User Profile for Impairment Person in Dynamic Situation
+                Aware Social Networks.</title>
+            <pages>12-34</pages>
+            <year>2020</year>
+            <volume>10</volume>
+            <journal>Int. J. Knowl. Based Organ.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJKBO.2020040102</ee>
+            <url>db/journals/ijkbo/ijkbo10.html#KourticheBH20</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijtd/CherguiB20" mdate="2020-06-15">
+            <author pid="38/3223">Mohamed El-Amine Chergui</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Towards a BPMN Security Extension for the Visualization of Cyber Security
+                Requirements.</title>
+            <pages>1-17</pages>
+            <year>2020</year>
+            <volume>11</volume>
+            <journal>Int. J. Technol. Diffusion</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJTD.2020040101</ee>
+            <url>db/journals/ijtd/ijtd11.html#CherguiB20</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijtd/KloucheBB20" mdate="2020-06-15">
+            <author pid="239/9234">Badia Klouche</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="264/2387">Sakina Rim Bennabi</author>
+            <title>Ooredoo Rayek: A Business Decision Support System Based on Multi-Language
+                Sentiment Analysis of Algerian Operator Telephones.</title>
+            <pages>66-81</pages>
+            <year>2020</year>
+            <volume>11</volume>
+            <journal>Int. J. Technol. Diffusion</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJTD.2020040105</ee>
+            <url>db/journals/ijtd/ijtd11.html#KloucheBB20</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jwsr/MalkiBM20" mdate="2022-12-07">
+            <author orcid="0000-0002-2937-9320" pid="116/6753">Abdelhamid Malki</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <title>Towards Rank-Aware Data Mashups.</title>
+            <pages>1-14</pages>
+            <year>2020</year>
+            <volume>17</volume>
+            <journal>Int. J. Web Serv. Res.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/IJWSR.2020100101</ee>
+            <url>db/journals/jwsr/jwsr17.html#MalkiBM20</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/grapp/BedjaouiEB20" mdate="2025-03-03">
+            <author orcid="0000-0002-8932-070X" pid="233/2725">Mohammed Bedjaoui</author>
+            <author pid="45/10714">Nadia Elouali</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>User Time Spent between Persuasiveness and Usability of Social Networking Mobile
+                Applications: Patterns of Influence.</title>
+            <pages>35-44</pages>
+            <year>2020</year>
+            <booktitle>VISIGRAPP (2: HUCAPP)</booktitle>
+            <ee>https://doi.org/10.5220/0008976400350044</ee>
+            <crossref>conf/grapp/2020hucapp</crossref>
+            <url>db/conf/grapp/hucapp2020.html#BedjaouiEB20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijsita/ZerhouniB19" mdate="2020-07-03">
+            <author pid="262/7069">Mourad Zerhouni</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Large-Scale Ontology Alignment- An Extraction Based Method to Support Information
+                System Interoperability.</title>
+            <pages>59-84</pages>
+            <year>2019</year>
+            <volume>10</volume>
+            <journal>Int. J. Strateg. Inf. Technol. Appl.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJSITA.2019040104</ee>
+            <url>db/journals/ijsita/ijsita10.html#ZerhouniB19</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/jeri/ElhannaniB19" mdate="2023-03-10">
+            <author pid="239/9225">Souad Elhannani</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>QoC-aware Meta-model to Identify and Qualify Situations on the Internet of Things
+                Environment.</title>
+            <year>2019</year>
+            <booktitle>JERI</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-2351/paper_66.pdf</ee>
+            <crossref>conf/jeri/2019</crossref>
+            <url>db/conf/jeri/jeri2019.html#ElhannaniB19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/jeri/KloucheB19" mdate="2023-03-10">
+            <author pid="239/9234">Badia Klouche</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Multilingual Sentiments Analysis to Improve the Quality of Services Provided by
+                Algerian Telephone Operator.</title>
+            <year>2019</year>
+            <booktitle>JERI</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-2351/paper_58.pdf</ee>
+            <crossref>conf/jeri/2019</crossref>
+            <url>db/conf/jeri/jeri2019.html#KloucheB19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/jeri/ZarhouniB19" mdate="2023-03-10">
+            <author pid="239/9232">Mourad Zarhouni</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>ONTEM: Extraction-based Alignment Method for Large Ontologies.</title>
+            <year>2019</year>
+            <booktitle>JERI</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-2351/paper_62.pdf</ee>
+            <crossref>conf/jeri/2019</crossref>
+            <url>db/conf/jeri/jeri2019.html#ZarhouniB19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijghpc/MerabetBBB18" mdate="2021-10-14">
+            <author orcid="0000-0003-1120-1943" pid="154/4202">Mohamed Merabet</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="30/5025">Mahmoud Barhamgi</author>
+            <author pid="70/980">Christine Bonnet</author>
+            <title>A Predictive Map Task Scheduler for Optimizing Data Locality in MapReduce
+                Clusters.</title>
+            <pages>1-14</pages>
+            <year>2018</year>
+            <volume>10</volume>
+            <journal>Int. J. Grid High Perform. Comput.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/IJGHPC.2018100101</ee>
+            <url>db/journals/ijghpc/ijghpc10.html#MerabetBBB18</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijoci/KabouBM18" mdate="2020-06-08">
+            <author pid="154/4219">Salaheddine Kabou</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="131/0107">M'hamed Mosteghanemi</author>
+            <title>A Survey on Privacy Preserving Dynamic Data Publishing.</title>
+            <pages>1-20</pages>
+            <year>2018</year>
+            <volume>8</volume>
+            <journal>Int. J. Organ. Collect. Intell.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/IJOCI.2018100101</ee>
+            <url>db/journals/ijoci/ijoci8.html#KabouBM18</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/ciia/MahammedBH18" mdate="2022-10-02">
+            <author orcid="0000-0001-7865-5937" pid="185/2341">Nadir Mahammed</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="218/2733">Nesrine Hamdani</author>
+            <title>Evolutionary Multi-objective Optimization of Business Process Designs with
+                MA-NSGAII.</title>
+            <pages>341-351</pages>
+            <year>2018</year>
+            <booktitle>CIIA</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-89743-1_30</ee>
+            <crossref>conf/ciia/2018</crossref>
+            <url>db/conf/ciia/ciia2018.html#MahammedBH18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ciia/BoudaaHB18" mdate="2019-09-25">
+            <author orcid="0000-0002-1356-4775" pid="130/3909">Boudjemaa Boudaa</author>
+            <author pid="42/6348">Slimane Hammoudi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Towards an Extensible Context Model for Mobile User in Smart Cities.</title>
+            <pages>498-508</pages>
+            <year>2018</year>
+            <booktitle>CIIA</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-89743-1_43</ee>
+            <crossref>conf/ciia/2018</crossref>
+            <url>db/conf/ciia/ciia2018.html#BoudaaHB18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ciia/SekkalBMB18" mdate="2018-05-05">
+            <author orcid="0000-0002-3634-2227" pid="194/6347">Nawel Sekkal</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-2330-1004" pid="62/4946">Michael Mrissa</author>
+            <author orcid="0000-0002-1356-4775" pid="130/3909">Boudjemaa Boudaa</author>
+            <title>Combining Proactive and Reactive Approaches in Smart Services for the Web of
+                Things.</title>
+            <pages>509-520</pages>
+            <year>2018</year>
+            <booktitle>CIIA</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-89743-1_44</ee>
+            <crossref>conf/ciia/2018</crossref>
+            <url>db/conf/ciia/ciia2018.html#SekkalBMB18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/cits/MahammedBOF18" mdate="2022-10-02">
+            <author orcid="0000-0001-7865-5937" pid="185/2341">Nadir Mahammed</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="225/1534">Ali Ouldkradda</author>
+            <author orcid="0000-0002-2896-136X" pid="225/1438">Mahmoud Fahsi</author>
+            <title>Evolutionary Business Process Optimization using a Multiple-Criteria Decision
+                Analysis method.</title>
+            <pages>1-5</pages>
+            <year>2018</year>
+            <booktitle>CITS</booktitle>
+            <ee>https://doi.org/10.1109/CITS.2018.8440166</ee>
+            <crossref>conf/cits/2018</crossref>
+            <url>db/conf/cits/cits2018.html#MahammedBOF18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/medi/CherguiB18" mdate="2019-09-25">
+            <author pid="38/3223">Mohamed El-Amine Chergui</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A Valid BPMN Extension for Supporting Security Requirements Based on Cyber
+                Security Ontology.</title>
+            <pages>219-232</pages>
+            <year>2018</year>
+            <booktitle>MEDI</booktitle>
+            <ee>https://doi.org/10.1007/978-3-030-00856-7_14</ee>
+            <crossref>conf/medi/2018</crossref>
+            <url>db/conf/medi/medi2018.html#CherguiB18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/momm/BedjaouiEB18" mdate="2024-05-07">
+            <author orcid="0000-0002-8932-070X" pid="233/2725">Mohammed Bedjaoui</author>
+            <author orcid="0000-0002-3427-3766" pid="45/10714">Nadia Elouali</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>User Time Spent Between Persuasiveness and Usability of Social Networking Mobile
+                Applications: A Case Study of Facebook and YouTube.</title>
+            <pages>15-24</pages>
+            <year>2018</year>
+            <booktitle>MoMM</booktitle>
+            <ee>https://doi.org/10.1145/3282353.3282362</ee>
+            <crossref>conf/momm/2018</crossref>
+            <url>db/conf/momm/momm2018.html#BedjaouiEB18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/mspn/MahammedBOF18" mdate="2022-10-02">
+            <author orcid="0000-0001-7865-5937" pid="185/2341">Nadir Mahammed</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="225/1534">Ali Ouldkradda</author>
+            <author orcid="0000-0002-2896-136X" pid="225/1438">Mahmoud Fahsi</author>
+            <title>Evolutionary Multi Optimization Business Process Designs Using MR-Sort
+                NSGAII.</title>
+            <pages>24-31</pages>
+            <year>2018</year>
+            <booktitle>MSPN</booktitle>
+            <ee>https://doi.org/10.1007/978-3-030-03101-5_3</ee>
+            <crossref>conf/mspn/2018</crossref>
+            <url>db/conf/mspn/mspn2018.html#MahammedBOF18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijaisc/KaouanBBH17" mdate="2020-07-14">
+            <author pid="202/3210">Moussa Kaouan</author>
+            <author pid="15/7709">Djelloul Bouchiha</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="84/10933">Sofiane Boukli Hacene</author>
+            <title>Ontology-based web services classification for registration and discovery of web
+                services.</title>
+            <pages>129-147</pages>
+            <year>2017</year>
+            <volume>6</volume>
+            <journal>Int. J. Artif. Intell. Soft Comput.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1504/IJAISC.2017.10005629</ee>
+            <url>db/journals/ijaisc/ijaisc6.html#KaouanBBH17</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijoci/KabouB17" mdate="2020-06-08">
+            <author pid="154/4219">Salaheddine Kabou</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A New Distributed Anonymization Protocol with Minimal Loss of
+                Information.</title>
+            <pages>1-19</pages>
+            <year>2017</year>
+            <volume>7</volume>
+            <journal>Int. J. Organ. Collect. Intell.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.4018/IJOCI.2017010101</ee>
+            <url>db/journals/ijoci/ijoci7.html#KabouB17</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijoci/MahammedB17" mdate="2022-10-02">
+            <author orcid="0000-0001-7865-5937" pid="185/2341">Nadir Mahammed</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>An Evolutionary Algorithm Based Approach for Business Process Multi-Criteria
+                Optimization.</title>
+            <pages>34-53</pages>
+            <year>2017</year>
+            <volume>7</volume>
+            <journal>Int. J. Organ. Collect. Intell.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJOCI.2017040103</ee>
+            <url>db/journals/ijoci/ijoci7.html#MahammedB17</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/soca/BekkoucheBHTFM17" mdate="2022-06-23">
+            <author pid="199/6743">Amina Bekkouche</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-6309-7503" pid="h/MarianneHuchard">Marianne Huchard</author>
+            <author pid="08/1422">Chouki Tibermacine</author>
+            <author pid="80/9862">Hadjila Fethallah</author>
+            <author pid="183/7591">Merzoug Mohammed</author>
+            <title>QoS-aware optimal and automated semantic web service composition with user's
+                constraints.</title>
+            <pages>183-201</pages>
+            <year>2017</year>
+            <volume>11</volume>
+            <journal>Serv. Oriented Comput. Appl.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1007/s11761-017-0205-1</ee>
+            <url>db/journals/soca/soca11.html#BekkoucheBHTFM17</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/ihm/BellalBE17" mdate="2024-05-07">
+            <author orcid="0000-0001-6521-5721" pid="236/7112">Zouhir Bellal</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0002-3427-3766" pid="45/10714">Nadia Elouali</author>
+            <title>Using programming by demonstration for multimodality in mobile-human
+                interactions.</title>
+            <pages>243-251</pages>
+            <year>2017</year>
+            <booktitle>IHM</booktitle>
+            <ee>https://doi.org/10.1145/3132129.3132154</ee>
+            <crossref>conf/ihm/2017</crossref>
+            <url>db/conf/ihm/ihm2017.html#BellalBE17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijaras/CherguiB16" mdate="2020-08-25">
+            <author pid="38/3223">Mohamed El-Amine Chergui</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Services Derivation from Business Process: A PSO-based Multi-Objective
+                Approach.</title>
+            <pages>59-74</pages>
+            <year>2016</year>
+            <volume>7</volume>
+            <journal>Int. J. Adapt. Resilient Auton. Syst.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.4018/IJARAS.2016010104</ee>
+            <url>db/journals/ijaras/ijaras7.html#CherguiB16</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/www/MalkiBBBMGD16" mdate="2021-05-19">
+            <author orcid="0000-0002-2937-9320" pid="116/6753">Abdelhamid Malki</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-2974-3951" pid="30/5025">Mahmoud Barhamgi</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author orcid="0000-0003-3222-0043" pid="91/4781">Parisa Ghodous</author>
+            <author pid="08/1934">Khalil Drira</author>
+            <title>Data Services with uncertain and correlated semantics.</title>
+            <pages>157-175</pages>
+            <year>2016</year>
+            <volume>19</volume>
+            <journal>World Wide Web</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1007/s11280-014-0317-x</ee>
+            <url>db/journals/www/www19.html#MalkiBBBMGD16</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/medi/MahammedB16" mdate="2022-10-02">
+            <author orcid="0000-0001-7865-5937" pid="185/2341">Nadir Mahammed</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Toward Multi Criteria Optimization of Business Processes Design.</title>
+            <pages>98-107</pages>
+            <year>2016</year>
+            <booktitle>MEDI</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-45547-1_8</ee>
+            <crossref>conf/medi/2016</crossref>
+            <url>db/conf/medi/medi2016.html#MahammedB16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijapuc/KhalfiB15" mdate="2022-10-02">
+            <author orcid="0000-0002-1359-6347" pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Meta Model Context Based Space for Ubiquitous Computing.</title>
+            <pages>51-66</pages>
+            <year>2015</year>
+            <volume>7</volume>
+            <journal>Int. J. Adv. Pervasive Ubiquitous Comput.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.4018/IJAPUC.2015040105</ee>
+            <url>db/journals/ijapuc/ijapuc7.html#KhalfiB15</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijapuc/KhalfiB15a" mdate="2022-01-03">
+            <author pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Evaluating Characteristics Adherence Level to Design Framework for Pervasive
+                Projects.</title>
+            <pages>18-29</pages>
+            <year>2015</year>
+            <volume>7</volume>
+            <journal>Int. J. Adv. Pervasive Ubiquitous Comput.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/IJAPUC.2015100103</ee>
+            <url>db/journals/ijapuc/ijapuc7.html#KhalfiB15a</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijisss/AbderrahimB15" mdate="2020-09-29">
+            <author pid="163/2968">Naziha Abderrahim</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>STRESS: A Social Trust-Aware System for Recommending Web Services.</title>
+            <pages>40-58</pages>
+            <year>2015</year>
+            <volume>7</volume>
+            <journal>Int. J. Inf. Syst. Serv. Sect.</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.4018/IJISSS.2015070103</ee>
+            <url>db/journals/ijisss/ijisss7.html#AbderrahimB15</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/tkde/MalkiBBBM15" mdate="2021-05-19">
+            <author orcid="0000-0002-2937-9320" pid="116/6753">Abdelhamid Malki</author>
+            <author orcid="0000-0003-2974-3951" pid="30/5025">Mahmoud Barhamgi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <title>Composing Data Services with Uncertain Semantics.</title>
+            <pages>936-949</pages>
+            <year>2015</year>
+            <volume>27</volume>
+            <journal>IEEE Trans. Knowl. Data Eng.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1109/TKDE.2014.2359661</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/TKDE.2014.2359661</ee>
+            <url>db/journals/tkde/tkde27.html#MalkiBBBM15</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/peccs/KhalfiB15" mdate="2015-07-29">
+            <author pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Location-based Proactive Services using WSFD in Pervasive Environments.</title>
+            <pages>43-50</pages>
+            <year>2015</year>
+            <booktitle>PECCS</booktitle>
+            <crossref>conf/peccs/2015</crossref>
+            <url>db/conf/peccs/peccs2015.html#KhalfiB15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijapuc/KhalfiB14" mdate="2020-09-29">
+            <author pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>PS4PCSim: A Proactive Simulator for Pervasive Computing using WSFD.</title>
+            <pages>63-70</pages>
+            <year>2014</year>
+            <volume>6</volume>
+            <journal>Int. J. Adv. Pervasive Ubiquitous Comput.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/ijapuc.2014100105</ee>
+            <url>db/journals/ijapuc/ijapuc6.html#KhalfiB14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijapuc/KhalfiB14a" mdate="2020-09-29">
+            <author pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Spontaneous Service-Providing using WS4D in Smart Environments.</title>
+            <pages>71-87</pages>
+            <year>2014</year>
+            <volume>6</volume>
+            <journal>Int. J. Adv. Pervasive Ubiquitous Comput.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/ijapuc.2014100106</ee>
+            <url>db/journals/ijapuc/ijapuc6.html#KhalfiB14a</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijcat/LaallamKB14" mdate="2020-09-17">
+            <author pid="146/1044">Fatima Zohra Laallam</author>
+            <author pid="57/1622">Mohammed Lamine Kherfi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A survey on the complementarity between database and ontologies: principles and
+                research areas.</title>
+            <pages>166-187</pages>
+            <year>2014</year>
+            <volume>49</volume>
+            <journal>Int. J. Comput. Appl. Technol.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1504/IJCAT.2014.060528</ee>
+            <url>db/journals/ijcat/ijcat49.html#LaallamKB14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijiit/ZahiaB14" mdate="2020-08-06">
+            <author pid="143/1403">Marouf Zahia</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Towards Ontological Structures Extraction from Folksonomies: An Efficient Fuzzy
+                Clustering Approach.</title>
+            <pages>40-50</pages>
+            <year>2014</year>
+            <volume>10</volume>
+            <journal>Int. J. Intell. Inf. Technol.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/ijiit.2014100103</ee>
+            <url>db/journals/ijiit/ijiit10.html#ZahiaB14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijwp/HachemiB14" mdate="2020-09-06">
+            <author pid="72/7707">Yamina Hachemi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Case-Based Planning with User Preferences for Web Service Composition.</title>
+            <pages>58-71</pages>
+            <year>2014</year>
+            <volume>6</volume>
+            <journal>Int. J. Web Portals</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/IJWP.2014100104</ee>
+            <url>db/journals/ijwp/ijwp6.html#HachemiB14</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/closer/KhalfiB14" mdate="2014-09-12">
+            <author pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A Framework for Ambient Computing.</title>
+            <pages>170-178</pages>
+            <year>2014</year>
+            <booktitle>CLOSER</booktitle>
+            <crossref>conf/closer/2014</crossref>
+            <url>db/conf/closer/closer2014.html#KhalfiB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icaase/MerabetB14" mdate="2023-03-10">
+            <author pid="154/4202">Mohamed Merabet</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Hybrid Web Service Selection Based on Functional and Non-Functional
+                Properties.</title>
+            <pages>20-26</pages>
+            <year>2014</year>
+            <booktitle>ICAASE</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-1294/paper2.pdf</ee>
+            <crossref>conf/icaase/2014</crossref>
+            <url>db/conf/icaase/icaase2014.html#MerabetB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icaase/MerabetB14a" mdate="2023-03-10">
+            <author pid="154/4202">Mohamed Merabet</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A Multi-Objective Hybrid Particle Swarm Optimization-based Service
+                Identification.</title>
+            <pages>52-62</pages>
+            <year>2014</year>
+            <booktitle>ICAASE</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-1294/paper6.pdf</ee>
+            <crossref>conf/icaase/2014</crossref>
+            <url>db/conf/icaase/icaase2014.html#MerabetB14a</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icaase/KabouB14" mdate="2023-03-10">
+            <author pid="154/4219">Salaheddine Kabou</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A New Distributed Anonymization Protocol to Satisfy Multiple Data Providers
+                Privacy Requirements.</title>
+            <pages>201-204</pages>
+            <year>2014</year>
+            <booktitle>ICAASE</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-1294/paper26.pdf</ee>
+            <crossref>conf/icaase/2014</crossref>
+            <url>db/conf/icaase/icaase2014.html#KabouB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iccasa/KhalfiB14" mdate="2016-04-18">
+            <author pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Proactive Approach for Service Discovery Using Web Service for Devices on
+                Pervasive Computing.</title>
+            <pages>123-129</pages>
+            <year>2014</year>
+            <booktitle>ICCASA</booktitle>
+            <ee>http://dl.acm.org/citation.cfm?id=2762747</ee>
+            <crossref>conf/iccasa/2014</crossref>
+            <url>db/conf/iccasa/iccasa2014.html#KhalfiB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icmcs2/FahsiB14" mdate="2022-10-02">
+            <author orcid="0000-0002-2896-136X" pid="225/1438">Mahmoud Fahsi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Studying the effects of conflicting tokenization on LSA dimension
+                reduction.</title>
+            <pages>542-546</pages>
+            <year>2014</year>
+            <booktitle>ICMCS</booktitle>
+            <ee>https://doi.org/10.1109/ICMCS.2014.6911367</ee>
+            <crossref>conf/icmcs2/2014</crossref>
+            <url>db/conf/icmcs2/icmcs2014.html#FahsiB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icmcs2/CherguiB14" mdate="2021-04-09">
+            <author pid="38/3223">Mohamed El-Amine Chergui</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Services derivation from business process: A PSO-based multi-objective
+                approach.</title>
+            <pages>582-588</pages>
+            <year>2014</year>
+            <booktitle>ICMCS</booktitle>
+            <ee>https://doi.org/10.1109/ICMCS.2014.6911160</ee>
+            <crossref>conf/icmcs2/2014</crossref>
+            <url>db/conf/icmcs2/icmcs2014.html#CherguiB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ijapuc/KhalfiB13" mdate="2022-10-02">
+            <author orcid="0000-0002-1359-6347" pid="142/9795">Mohammed Fethi Khalfi</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Toward A Generic Infrastructure for Ubiquitous Computing.</title>
+            <pages>66-85</pages>
+            <year>2013</year>
+            <volume>5</volume>
+            <journal>Int. J. Adv. Pervasive Ubiquitous Comput.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.4018/japuc.2013010107</ee>
+            <url>db/journals/ijapuc/ijapuc5.html#KhalfiB13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijcat/AbdelkaderMB13" mdate="2024-10-06">
+            <author orcid="0000-0003-0408-331X" pid="131/0093">Mostefai Abdelkader</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A heuristic approach to locate candidate web service in legacy software.</title>
+            <pages>152-161</pages>
+            <year>2013</year>
+            <volume>47</volume>
+            <journal>Int. J. Comput. Appl. Technol.</journal>
+            <number>2/3</number>
+            <ee>https://doi.org/10.1504/IJCAT.2013.054348</ee>
+            <url>db/journals/ijcat/ijcat47.html#AbdelkaderMB13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijisss/SoltaniB13" mdate="2020-09-29">
+            <author pid="116/6660">Mokhtar Soltani</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Ontology-based Multi-Objective Evolutionary Algorithm for Deriving Software
+                Services from Business Process Model.</title>
+            <pages>35-53</pages>
+            <year>2013</year>
+            <volume>5</volume>
+            <journal>Int. J. Inf. Syst. Serv. Sect.</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.4018/jisss.2013070103</ee>
+            <url>db/journals/ijisss/ijisss5.html#SoltaniB13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijitwe/MalkiB13" mdate="2021-05-19">
+            <author orcid="0000-0002-2937-9320" pid="116/6753">Abdelhamid Malki</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Semantic Cloud: Building Dynamic Mashup in Cloud Environment.</title>
+            <pages>20-35</pages>
+            <year>2013</year>
+            <volume>8</volume>
+            <journal>Int. J. Inf. Technol. Web Eng.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.4018/ijitwe.2013100102</ee>
+            <url>db/journals/ijitwe/ijitwe8.html#MalkiB13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijmso/BouiadjraB13" mdate="2023-08-28">
+            <author pid="60/10885">Abderrazak Bachir Bouiadjra</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>A framework for evaluating and ranking ontologies.</title>
+            <pages>155-168</pages>
+            <year>2013</year>
+            <volume>8</volume>
+            <journal>Int. J. Metadata Semant. Ontologies</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1504/IJMSO.2013.056600</ee>
+            <ee>https://www.wikidata.org/entity/Q121432595</ee>
+            <url>db/journals/ijmso/ijmso8.html#BouiadjraB13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijwet/MekourB13" mdate="2019-09-25">
+            <author pid="38/10271">Mansour Mekour</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>SP4PS: service process rewriting for efficient and proper web services
+                composition.</title>
+            <pages>327-346</pages>
+            <year>2013</year>
+            <volume>8</volume>
+            <journal>Int. J. Web Eng. Technol.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1504/IJWET.2013.059098</ee>
+            <url>db/journals/ijwet/ijwet8.html#MekourB13</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/aiccsa/ZahiaM13" mdate="2025-03-03">
+            <author pid="143/1403">Marouf Zahia</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Fuzzy clustering-based approach to derive hierarchical structures from
+                folksonomies.</title>
+            <pages>1-8</pages>
+            <year>2013</year>
+            <booktitle>AICCSA</booktitle>
+            <ee>https://doi.org/10.1109/AICCSA.2013.6616455</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/AICCSA.2013.6616455</ee>
+            <crossref>conf/aiccsa/2013</crossref>
+            <url>db/conf/aiccsa/aiccsa2013.html#ZahiaM13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ic3k/BouiadjraB13" mdate="2014-05-16">
+            <author pid="60/10885">Abderrazak Bachir Bouiadjra</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>User-centered Approach for Evaluating Ontologies.</title>
+            <pages>192-198</pages>
+            <year>2013</year>
+            <booktitle>KEOD</booktitle>
+            <crossref>conf/ic3k/2013keod</crossref>
+            <url>db/conf/ic3k/keod2013.html#BouiadjraB13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iceis/SoltaniB12" mdate="2012-08-21">
+            <author pid="116/6660">Mokhtar Soltani</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>From a High Level Business Process Model to Service Model Artifacts - A
+                Model-Driven Approach.</title>
+            <pages>265-268</pages>
+            <year>2012</year>
+            <booktitle>ICEIS (3)</booktitle>
+            <crossref>conf/iceis/2012-3</crossref>
+            <url>db/conf/iceis/iceis2012-3.html#SoltaniB12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icwit/MalkiB12" mdate="2023-03-10">
+            <author pid="116/6753">Abdelhamid Malki</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Building Semantic Mashup.</title>
+            <pages>40-49</pages>
+            <year>2012</year>
+            <booktitle>ICWIT</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-867/Paper5.pdf</ee>
+            <crossref>conf/icwit/2012</crossref>
+            <url>db/conf/icwit/icwit2012.html#MalkiB12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icwit/SoltaniB12" mdate="2023-03-10">
+            <author pid="116/6660">Mokhtar Soltani</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>AMSI: An Automatic Model-Driven Service Identification from Business Process
+                Models.</title>
+            <pages>276-281</pages>
+            <year>2012</year>
+            <booktitle>ICWIT</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-867/Paper29.pdf</ee>
+            <crossref>conf/icwit/2012</crossref>
+            <url>db/conf/icwit/icwit2012.html#SoltaniB12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icwit/AhmedB12" mdate="2023-03-10">
+            <author pid="99/11292">Soraya Setti Ahmed</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Reverse Engineering Process for Extracting Views from Domain Ontology.</title>
+            <pages>288-293</pages>
+            <year>2012</year>
+            <booktitle>ICWIT</booktitle>
+            <ee type="oa">https://ceur-ws.org/Vol-867/Paper31.pdf</ee>
+            <crossref>conf/icwit/2012</crossref>
+            <url>db/conf/icwit/icwit2012.html#AhmedB12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <proceedings key="conf/icwit/2012" mdate="2023-03-10">
+            <editor pid="90/3009">Mimoun Malki</editor>
+            <editor pid="b/SalimaBenbernou">Salima Benbernou</editor>
+            <editor pid="99/6782">Sidi Mohamed Benslimane</editor>
+            <editor pid="93/6033">Ahmed Lehireche</editor>
+            <title>Proceedings of the 4th International conference on Web and Information
+                Technologies, ICWIT 2012, Sidi Bel Abbes, Algeria, April 29-30, 2012</title>
+            <booktitle>ICWIT</booktitle>
+            <publisher>CEUR-WS.org</publisher>
+            <series href="db/series/ceurws/index.html">CEUR Workshop Proceedings</series>
+            <volume>867</volume>
+            <year>2012</year>
+            <ee type="oa">https://ceur-ws.org/Vol-867</ee>
+            <ee>https://nbn-resolving.org/urn:nbn:de:0074-867-1</ee>
+            <url>db/conf/icwit/icwit2012.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ic3k/BouiadjraB11" mdate="2012-05-04">
+            <author pid="60/10885">Abderrazak Bachir Bouiadjra</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Ontology Evaluation - State of the Art, New Approach and Perspectives.</title>
+            <pages>365-368</pages>
+            <year>2011</year>
+            <booktitle>KEOD</booktitle>
+            <crossref>conf/ic3k/2011keod</crossref>
+            <url>db/conf/ic3k/keod2011.html#BouiadjraB11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ic3k/AhmedMB11" mdate="2012-05-04">
+            <author pid="99/11292">Soraya Setti Ahmed</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>Existential Dependency Driven Approach for Extracting Views from Domain
+                Ontology.</title>
+            <pages>413-418</pages>
+            <year>2011</year>
+            <booktitle>KEOD</booktitle>
+            <crossref>conf/ic3k/2011keod</crossref>
+            <url>db/conf/ic3k/keod2011.html#AhmedMB11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/medi/MekourB11" mdate="2019-09-25">
+            <author pid="38/10271">Mansour Mekour</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>BH : Behavioral Handling to Enhance Powerfully and Usefully the Dynamic Semantic
+                Web Services Composition.</title>
+            <pages>50-61</pages>
+            <year>2011</year>
+            <booktitle>MEDI</booktitle>
+            <ee>https://doi.org/10.1007/978-3-642-24443-8_8</ee>
+            <crossref>conf/medi/2011</crossref>
+            <url>db/conf/medi/medi2011.html#MekourB11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/nlpke/BouiadjraB11" mdate="2019-09-25">
+            <author pid="60/10885">Abderrazak Bachir Bouiadjra</author>
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <title>FOEval: Full ontology evaluation.</title>
+            <pages>464-468</pages>
+            <year>2011</year>
+            <booktitle>NLPKE</booktitle>
+            <ee>https://doi.org/10.1109/NLPKE.2011.6138244</ee>
+            <crossref>conf/nlpke/2011</crossref>
+            <url>db/conf/nlpke/nlpke2011.html#BouiadjraB11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/iajit/BenslimaneMB10" mdate="2023-03-16">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="15/7709">Djelloul Bouchiha</author>
+            <title>Deriving Conceptual Schema from Domain Ontology: A Web Application Reverse
+                Engineering Approach.</title>
+            <pages>167-176</pages>
+            <year>2010</year>
+            <volume>7</volume>
+            <journal>Int. Arab J. Inf. Technol.</journal>
+            <number>2</number>
+            <ee type="archive"
+                >http://iajit.org/index.php?option=com_content&#38;task=blogcategory&#38;id=69&#38;Itemid=300</ee>
+            <url>db/journals/iajit/iajit7.html#BenslimaneMB10</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ijwis/BenslimaneMB09" mdate="2021-10-14">
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author orcid="0000-0001-7314-4329" pid="15/7709">Djelloul Bouchiha</author>
+            <title>Maintaining web application: an ontology-based reverse engineering
+                approach.</title>
+            <pages>495-517</pages>
+            <year>2009</year>
+            <volume>5</volume>
+            <journal>Int. J. Web Inf. Syst.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1108/17440080911006225</ee>
+            <url>db/journals/ijwis/ijwis5.html#BenslimaneMB09</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/aiccsa/BenslimaneMB09" mdate="2023-03-24">
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author orcid="0000-0001-7314-4329" pid="15/7709">Djelloul Bouchiha</author>
+            <title>Towards ontology-based approach for maintaining web application.</title>
+            <pages>436-443</pages>
+            <year>2009</year>
+            <booktitle>AICCSA</booktitle>
+            <ee>https://doi.org/10.1109/AICCSA.2009.5069361</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/AICCSA.2009.5069361</ee>
+            <crossref>conf/aiccsa/2009</crossref>
+            <url>db/conf/aiccsa/aiccsa2009.html#BenslimaneMB09</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/iajit/BenslimaneMRR08" mdate="2008-09-17">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="80/1632">Mustapha Kamal Rahmouni</author>
+            <author pid="83/4610">Abdellatif Rahmoun</author>
+            <title>Towards Ontology Extraction from Data-Intensive Web Sites: An HTML Forms-Based
+                Reverse Engineering Approach.</title>
+            <pages>34-44</pages>
+            <year>2008</year>
+            <volume>5</volume>
+            <journal>Int. Arab J. Inf. Technol.</journal>
+            <number>1</number>
+            <url>db/journals/iajit/iajit5.html#BenslimaneMRR08</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/informaticaLT/BenslimaneMRB07" mdate="2020-05-26">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="80/1632">Mustapha Kamal Rahmouni</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <title>Extracting Personalised Ontology from Data-Intensive Web Application: an HTML
+                Forms-Based Reverse Engineering Approach.</title>
+            <pages>511-534</pages>
+            <year>2007</year>
+            <volume>18</volume>
+            <journal>Informatica</journal>
+            <number>4</number>
+            <ee>http://content.iospress.com/articles/informatica/inf18-4-02</ee>
+            <url>db/journals/informaticaLT/informaticaLT18.html#BenslimaneMRB07</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jwe/BenslimaneBMMTAH07" mdate="2022-01-13">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="11/6673">Zakaria Maamar</author>
+            <author pid="t/PhilippeThiran">Philippe Thiran</author>
+            <author pid="69/1988">Youssef Amghar</author>
+            <author pid="39/8122">N. Hacid</author>
+            <title>Ontology Development for the Semantic Web: an HTML Form-Based Reverse Engineering
+                Approach.</title>
+            <pages>143-164</pages>
+            <year>2007</year>
+            <volume>6</volume>
+            <journal>J. Web Eng.</journal>
+            <number>2</number>
+            <ee type="oa">http://www.rintonpress.com/xjwe6/jwe-6-2/143-164.pdf</ee>
+            <url>db/journals/jwe/jwe6.html#BenslimaneBMMTAH07</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/cata/BenslimaneBSMS07" mdate="2021-08-09">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <author pid="57/3026">Seksun Suwanmanee</author>
+            <author pid="11/6673">Zakaria Maamar</author>
+            <author pid="27/1499">Hamadou Saliah-Hassane</author>
+            <title>Towards Owl Ontologies from Relational Databases: An HTML-Form Driven
+                Approach.</title>
+            <pages>219-224</pages>
+            <year>2007</year>
+            <crossref>conf/cata/2007</crossref>
+            <booktitle>CATA</booktitle>
+            <url>db/conf/cata/cata2007.html#BenslimaneBSMS07</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/aiccsa/BenslimaneML06" mdate="2023-03-24">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="93/6033">Ahmed Lehireche</author>
+            <title>Towards ontology-based semantic web from data-intensive web: A reverse
+                engineering approach.</title>
+            <pages>771-778</pages>
+            <year>2006</year>
+            <booktitle>AICCSA</booktitle>
+            <ee>https://doi.org/10.1109/AICCSA.2006.205177</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/AICCSA.2006.205177</ee>
+            <crossref>conf/aiccsa/2006</crossref>
+            <url>db/conf/aiccsa/aiccsa2006.html#BenslimaneML06</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icwe/BenslimaneBMAS06" mdate="2020-10-25">
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author pid="69/1988">Youssef Amghar</author>
+            <author orcid="0000-0003-3654-6649" pid="27/1499">Hamadou Saliah-Hassane</author>
+            <title>Acquiring owl ontologies from data-intensive web sites.</title>
+            <pages>361-368</pages>
+            <year>2006</year>
+            <crossref>conf/icwe/2006</crossref>
+            <booktitle>ICWE</booktitle>
+            <ee>https://doi.org/10.1145/1145581.1145593</ee>
+            <url>db/conf/icwe/icwe2006.html#BenslimaneBMAS06</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/inforsid/BenslimaneBMAG06" mdate="2006-09-15">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="69/1988">Youssef Amghar</author>
+            <author pid="03/18">Fa&#239;ez Gargouri</author>
+            <title>Construction d'une ontologie &#224; partir d'une base de donn&#233;es
+                relationnelle : approche dirig&#233;e par l'analyse des formulaires HTML.</title>
+            <pages>611-626</pages>
+            <year>2006</year>
+            <crossref>conf/inforsid/2006</crossref>
+            <booktitle>INFORSID</booktitle>
+            <url>db/conf/inforsid/inforsid2006.html#BenslimaneBMAG06</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/aiccsa/BenslimaneBM05" mdate="2023-03-24">
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="50/1269">Djamel Amar Bensaber</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <title>Towards a multi-representation ontology-based information systems
+                mediation.</title>
+            <pages>44</pages>
+            <year>2005</year>
+            <crossref>conf/aiccsa/2005</crossref>
+            <booktitle>AICCSA</booktitle>
+            <ee>https://doi.org/10.1109/AICCSA.2005.1387041</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/AICCSA.2005.1387041</ee>
+            <url>db/conf/aiccsa/aiccsa2005.html#BenslimaneBM05</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/otm/BenslimaneMB05" mdate="2020-10-25">
+            <author orcid="0000-0002-7008-7434" pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author orcid="0000-0003-4466-2316" pid="90/3009">Mimoun Malki</author>
+            <author pid="50/1269">Djamel Amar Bensaber</author>
+            <title>Automated Migration of Data-Intensive Web Pages into Ontology-Based Semantic Web:
+                A Reverse Engineering Approach.</title>
+            <pages>1640-1649</pages>
+            <year>2005</year>
+            <crossref>conf/otm/2005-2</crossref>
+            <booktitle>OTM Conferences (2)</booktitle>
+            <ee>https://doi.org/10.1007/11575801_46</ee>
+            <url>db/conf/otm/otm2005-2.html#BenslimaneMB05</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sitis/BenslimaneMKB05" mdate="2009-01-15">
+            <author pid="99/6782">Sidi Mohamed Benslimane</author>
+            <author pid="90/3009">Mimoun Malki</author>
+            <author pid="80/1632">Mustapha Kamal Rahmouni</author>
+            <author pid="b/DjamalBenslimane">Djamal Benslimane</author>
+            <title>Building domain-specific ontology from data-intensive web site: an HTML
+                forms-based reverse engineering approach.</title>
+            <pages>246-251</pages>
+            <year>2005</year>
+            <crossref>conf/sitis/2005</crossref>
+            <booktitle>SITIS</booktitle>
+            <ee>http://www.u-bourgogne.fr/SITIS/05/download/Proceedings/Files/f109.pdf</ee>
+            <url>db/conf/sitis/sitis2005.html#BenslimaneMKB05</url>
+        </inproceedings>
+    </r>
+    <coauthors n="74" nc="4">
+        <co c="0">
+            <na f="a/Abdelillah:Fidma_Mohamed" pid="365/1374">Fidma Mohamed Abdelillah</na>
+        </co>
+        <co c="0">
+            <na f="a/Abdelkader:Mostefai" pid="131/0093">Mostefai Abdelkader</na>
+        </co>
+        <co c="-1">
+            <na f="a/Abderrahim:Naziha" pid="163/2968">Naziha Abderrahim</na>
+        </co>
+        <co c="0">
+            <na f="a/Acart=uuml=rk:Cengiz" pid="55/11174">Cengiz Acart&#252;rk</na>
+        </co>
+        <co c="1">
+            <na f="a/Adjoudj:Reda" pid="43/7706">Reda Adjoudj</na>
+        </co>
+        <co c="0">
+            <na f="a/Ahmed:Soraya_Setti" pid="99/11292">Soraya Setti Ahmed</na>
+        </co>
+        <co c="1">
+            <na f="a/Allal:A=" pid="295/6046">A. Allal</na>
+        </co>
+        <co c="0">
+            <na f="a/Amghar:Youssef" pid="69/1988">Youssef Amghar</na>
+        </co>
+        <co c="0">
+            <na f="b/Barhamgi:Mahmoud" pid="30/5025">Mahmoud Barhamgi</na>
+        </co>
+        <co c="0">
+            <na f="b/Bedjaoui:Mohammed" pid="233/2725">Mohammed Bedjaoui</na>
+        </co>
+        <co c="0">
+            <na f="b/Bekkouche:Amina" pid="199/6743">Amina Bekkouche</na>
+        </co>
+        <co c="0">
+            <na f="b/Bellal:Zouhir" pid="236/7112">Zouhir Bellal</na>
+        </co>
+        <co c="0">
+            <na f="b/Benbernou:Salima" pid="b/SalimaBenbernou">Salima Benbernou</na>
+        </co>
+        <co c="0">
+            <na f="b/Bennabi:Sakina_Rim" pid="264/2387">Sakina Rim Bennabi</na>
+        </co>
+        <co c="0">
+            <na f="b/Bensaber:Djamel_Amar" pid="50/1269">Djamel Amar Bensaber</na>
+        </co>
+        <co c="0">
+            <na f="b/Benslimane:Djamal" pid="b/DjamalBenslimane">Djamal Benslimane</na>
+        </co>
+        <co c="0">
+            <na f="b/Bonnet:Christine" pid="70/980">Christine Bonnet</na>
+        </co>
+        <co c="0">
+            <na f="b/Bouchiha:Djelloul" pid="15/7709">Djelloul Bouchiha</na>
+        </co>
+        <co c="0">
+            <na f="b/Boudaa:Boudjemaa" pid="130/3909">Boudjemaa Boudaa</na>
+        </co>
+        <co c="-1">
+            <na f="b/Bouiadjra:Abderrazak_Bachir" pid="60/10885">Abderrazak Bachir Bouiadjra</na>
+        </co>
+        <co c="0">
+            <na f="b/Bousba:Fadia_Nouna" pid="335/0367">Fadia Nouna Bousba</na>
+        </co>
+        <co c="-1">
+            <na f="c/Chergui:Mohamed_El=Amine" pid="38/3223">Mohamed El-Amine Chergui</na>
+        </co>
+        <co c="0" n="2">
+            <na f="d/Didi:Fedoua" pid="15/6263">Fedoua Didi</na>
+            <na>Fedoua Lahfa</na>
+        </co>
+        <co c="0">
+            <na f="d/Drira:Khalil" pid="08/1934">Khalil Drira</na>
+        </co>
+        <co c="1">
+            <na f="e/Elhannani:Souad" pid="239/9225">Souad Elhannani</na>
+        </co>
+        <co c="0">
+            <na f="e/Elouali:Nadia" pid="45/10714">Nadia Elouali</na>
+        </co>
+        <co c="0">
+            <na f="f/Fahsi:Mahmoud" pid="225/1438">Mahmoud Fahsi</na>
+        </co>
+        <co c="1">
+            <na f="f/Fechfouch:Mostafa" pid="320/2150">Mostafa Fechfouch</na>
+        </co>
+        <co c="0">
+            <na f="f/Fethallah:Hadjila" pid="80/9862">Hadjila Fethallah</na>
+        </co>
+        <co c="0">
+            <na f="f/Figuir:Djamila" pid="299/6768">Djamila Figuir</na>
+        </co>
+        <co c="0">
+            <na f="g/Gargouri:Fa=iuml=ez" pid="03/18">Fa&#239;ez Gargouri</na>
+        </co>
+        <co c="0">
+            <na f="g/Ghodous:Parisa" pid="91/4781">Parisa Ghodous</na>
+        </co>
+        <co c="0">
+            <na f="h/Hacene:Sofiane_Boukli" pid="84/10933">Sofiane Boukli Hacene</na>
+        </co>
+        <co c="0">
+            <na f="h/Hachemi:Yamina" pid="72/7707">Yamina Hachemi</na>
+        </co>
+        <co c="0">
+            <na f="h/Hacid:N=" pid="39/8122">N. Hacid</na>
+        </co>
+        <co c="0">
+            <na f="h/Hamdani:Nesrine" pid="218/2733">Nesrine Hamdani</na>
+        </co>
+        <co c="0">
+            <na f="h/Hammoudi:Slimane" pid="42/6348">Slimane Hammoudi</na>
+        </co>
+        <co c="0">
+            <na f="h/Huchard:Marianne" pid="h/MarianneHuchard">Marianne Huchard</na>
+        </co>
+        <co c="3">
+            <na f="k/Kabou:Salaheddine" pid="154/4219">Salaheddine Kabou</na>
+        </co>
+        <co c="0">
+            <na f="k/Kaouan:Moussa" pid="202/3210">Moussa Kaouan</na>
+        </co>
+        <co c="1">
+            <na f="k/Khalfi:Mohammed_Fethi" pid="142/9795">Mohammed Fethi Khalfi</na>
+        </co>
+        <co c="2">
+            <na f="k/Kherfi:Mohammed_Lamine" pid="57/1622">Mohammed Lamine Kherfi</na>
+        </co>
+        <co c="0">
+            <na f="k/Klouche:Badia" pid="239/9234">Badia Klouche</na>
+        </co>
+        <co c="0">
+            <na f="k/Kourtiche:Ali" pid="262/1629">Ali Kourtiche</na>
+        </co>
+        <co c="2">
+            <na f="l/Laallam:Fatima_Zohra" pid="146/1044">Fatima Zohra Laallam</na>
+        </co>
+        <co c="0">
+            <na f="l/Lehireche:Ahmed" pid="93/6033">Ahmed Lehireche</na>
+        </co>
+        <co c="0">
+            <na f="m/Maamar:Zakaria" pid="11/6673">Zakaria Maamar</na>
+        </co>
+        <co c="0">
+            <na f="m/Mahammed:Nadir" pid="185/2341">Nadir Mahammed</na>
+        </co>
+        <co c="0">
+            <na f="m/Malki:Abdelhamid" pid="116/6753">Abdelhamid Malki</na>
+        </co>
+        <co c="0">
+            <na f="m/Malki:Mimoun" pid="90/3009">Mimoun Malki</na>
+        </co>
+        <co c="1">
+            <na f="m/Mazar:Merouane" pid="286/8901">Merouane Mazar</na>
+        </co>
+        <co c="-1">
+            <na f="m/Mekour:Mansour" pid="38/10271">Mansour Mekour</na>
+        </co>
+        <co c="0">
+            <na f="m/Merabet:Mohamed" pid="154/4202">Mohamed Merabet</na>
+        </co>
+        <co c="0" n="2">
+            <na f="m/Merzoug:Mohammed" pid="183/7591">Mohammed Merzoug</na>
+            <na>Merzoug Mohammed</na>
+        </co>
+        <co c="3">
+            <na f="m/Mosteghanemi:M=hamed" pid="131/0107">M'hamed Mosteghanemi</na>
+        </co>
+        <co c="0">
+            <na f="m/Mrissa:Michael" pid="62/4946">Michael Mrissa</na>
+        </co>
+        <co c="0">
+            <na f="n/Nora:Hamour" pid="356/3487">Hamour Nora</na>
+        </co>
+        <co c="0">
+            <na f="o/Ouchani:Samir" pid="33/3427">Samir Ouchani</na>
+        </co>
+        <co c="0">
+            <na f="o/Ouldkradda:Ali" pid="225/1534">Ali Ouldkradda</na>
+        </co>
+        <co c="0">
+            <na f="p/Park:Cheol_Young" pid="132/5812">Cheol Young Park</na>
+        </co>
+        <co c="0">
+            <na f="r/Rahmoun:Abdellatif" pid="83/4610">Abdellatif Rahmoun</na>
+        </co>
+        <co c="0">
+            <na f="r/Rahmouni:Mustapha_Kamal" pid="80/1632">Mustapha Kamal Rahmouni</na>
+        </co>
+        <co c="1">
+            <na f="s/Sahnoun:M=hammed" pid="163/8421">M'hammed Sahnoun</na>
+        </co>
+        <co c="0">
+            <na f="s/Saliah=Hassane:Hamadou" pid="27/1499">Hamadou Saliah-Hassane</na>
+        </co>
+        <co c="0">
+            <na f="s/Sekkal:Nawel" pid="194/6347">Nawel Sekkal</na>
+        </co>
+        <co c="0">
+            <na f="s/Sengel:Erhan" pid="187/3469">Erhan Sengel</na>
+        </co>
+        <co c="-1">
+            <na f="s/Soltani:Mokhtar" pid="116/6660">Mokhtar Soltani</na>
+        </co>
+        <co c="0">
+            <na f="s/Suwanmanee:Seksun" pid="57/3026">Seksun Suwanmanee</na>
+        </co>
+        <co c="0">
+            <na f="t/Thiran:Philippe" pid="t/PhilippeThiran">Philippe Thiran</na>
+        </co>
+        <co c="0">
+            <na f="t/Tibermacine:Chouki" pid="08/1422">Chouki Tibermacine</na>
+        </co>
+        <co c="0">
+            <na f="y/Yebdri:Zeyneb_El" pid="99/7451">Zeyneb El Yebdri</na>
+        </co>
+        <co c="-1">
+            <na f="z/Zahia:Marouf" pid="143/1403">Marouf Zahia</na>
+        </co>
+        <co c="-1">
+            <na f="z/Zarhouni:Mourad" pid="239/9232">Mourad Zarhouni</na>
+        </co>
+        <co c="-1">
+            <na f="z/Zerhouni:Mourad" pid="262/7069">Mourad Zerhouni</na>
+        </co>
+    </coauthors>
+</dblpperson>
