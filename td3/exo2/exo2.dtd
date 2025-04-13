@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT conference (titre, annee, lieu, organisateur, sessions)>
+ <!ELEMENT titre (#PCDATA)>
+ <!ELEMENT annee (#PCDATA)>
+ <!ELEMENT lieu (#PCDATA)>
+ <!ELEMENT organisateur (#PCDATA)>
+ <!ELEMENT sessions (session+)>
+ <!ELEMENT session (titre, intervenant, duree)>
+ <!ELEMENT intervenant (#PCDATA)>
+ <!ELEMENT duree (#PCDATA)>
+ <!ATTLIST conference id ID #REQUIRED>
+ <!ATTLIST session type CDATA #REQUIRED>
+ <!ATTLIST intervenant email CDATA #IMPLIED>
+ <!ATTLIST duree unite (minutes | heures) "minutes">
+

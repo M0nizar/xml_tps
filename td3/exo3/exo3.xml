@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotheque 
+    xmlns="http://www.example.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.com exo3.xsd">
+    
+    <livre id="C2025345678">
+        <titre>L'apprentissage XML</titre>
+        <genre>Scientifique</genre>
+        <langue>fr</langue>
+        <prix>49.99</prix>
+        <resume>Cet ouvrage explique les bases du XML et son utilisation dans le web moderne.</resume>
+        <annee_de_publication>2023</annee_de_publication>
+        
+        <chapitres>
+            <chapitre>
+                <titre>Introduction à XML</titre>
+                <sousTitre>Notions de base</sousTitre>
+                <nombre_page>1à10</nombre_page>
+            </chapitre>
+            <chapitre>
+                <titre>Validation avec XSD</titre>
+                <nombre_page>11à20</nombre_page>
+            </chapitre>
+        </chapitres>
+    </livre>
+    
+    <livre id="C2325345678">
+        <titre>Histoire des Sciences</titre>
+        <genre>Histoire</genre>
+        <langue>en</langue>
+        <prix>59.95</prix>
+        <annee_de_publication>2021</annee_de_publication>
+        
+        <chapitres>
+            <chapitre>
+                <titre>Les débuts de la science</titre>
+                <nombre_page>1à15</nombre_page>
+            </chapitre>
+            <chapitre>
+                <titre>L'ère moderne</titre>
+                <sousTitre>Révolutions scientifiques</sousTitre>
+                <nombre_page>16à30</nombre_page>
+            </chapitre>
+        </chapitres>
+    </livre>
+    
+</bibliotheque>

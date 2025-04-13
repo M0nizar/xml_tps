@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carnetProfessionnel>
+
+  <personnes>
+    <personne per_id="1" entr_id="1">
+ 
+      <nom>Dupont</nom>
+      <prenom>Jean</prenom>
+      <genre>Homme</genre>
+      <adresse>
+        <rue>12 Rue des Lilas</rue>
+        <code_postal>75008</code_postal>
+        <ville>Paris</ville>
+        <pays>France</pays>
+      </adresse>
+     
+      <numero_tele>
+        <personnelle>+33 6 98 76 54 32</personnelle>
+        <professionnelle>+33 1 23 45 67 89</professionnelle>
+      </numero_tele>
+      <email>
+        <personnelle>jeandupont@gmail.com</personnelle>
+        <professionnelle>jean.dupont@exemple.com</professionnelle>
+      </email>
+      <url_pageP>https://jeandupont.fr</url_pageP>
+    </personne>
+
+      <personne per_id="2" entr_id="1">
+    
+      <nom>nizar</nom>
+      <prenom>Jean</prenom>
+      <genre>Homme</genre>
+      <adresse>
+        <rue>12 Rue des Lilas</rue>
+        <code_postal>75008</code_postal>
+        <ville>Paris</ville>
+        <pays>France</pays>
+      </adresse>
+    
+      <numero_tele>
+        <personnelle>+33 6 98 76 54 32</personnelle>
+        <professionnelle>+33 1 23 45 67 89</professionnelle>
+      </numero_tele>
+      <email>
+        <personnelle>jeandupont@gmail.com</personnelle>
+        <professionnelle>jean.dupont@exemple.com</professionnelle>
+      </email>
+      <url_pageP>https://jeandupont.fr</url_pageP>
+    </personne>
+  </personnes>
+
+  <entreprises>
+    <entreprise enrt_id="1" contact_id="1">
+    
+      <nom>Tech Solutions</nom>
+      <adresse>
+        <rue>99 Boulevard Haussmann</rue>
+        <code_postal>75008</code_postal>
+        <ville>Paris</ville>
+        <pays>France</pays>
+      </adresse>
+      <numero_tele>
+        <fixe>+33 1 55 66 77 88</fixe>
+        <fax>+33 1 55 66 77 99</fax>
+      </numero_tele>
+      <email>contact@techsolutions.com</email>
+      <url_page_accueil>https://www.techsolutions.com</url_page_accueil>
+    </entreprise>
+  </entreprises>
+
+</carnetProfessionnel>

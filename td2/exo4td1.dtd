@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT classe (eleve+)>
+<!ELEMENT eleve (matricule,section,nom,prenom,groupe,naissance,addresse,trimestres)>
+
+<!ELEMENT matricule (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT groupe (#PCDATA)>
+
+<!ELEMENT naissance (date,lieu)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT lieu (#PCDATA)>
+
+<!ELEMENT addresse (rue,code_postal,wilaya)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT code_postal (#PCDATA)>
+<!ELEMENT wilaya (#PCDATA)>
+
+<!ELEMENT trimestres (trimestre+)>
+<!ELEMENT trimestre (module+)>
+<!ATTLIST trimestre numero ID #REQUIRED>
+
+<!ELEMENT module (#PCDATA)>
+<!ATTLIST module name (frensh | history | math | physics | art) #REQUIRED>

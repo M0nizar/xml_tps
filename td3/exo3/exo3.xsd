@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+ 
+    <!--first contraint-->
+    <xs:simpleType name="ISBN">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][0-9]{10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--second contraint-->
+    <xs:simpleType name="titreType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3"/>
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--third contraint-->
+    <xs:simpleType name="genreType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Scientifique"></xs:enumeration>
+            <xs:enumeration value="Roman"></xs:enumeration>
+            <xs:enumeration value="Science-Fiction"></xs:enumeration>
+            <xs:enumeration value="Histoire"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--fourth contraint-->
+    <xs:simpleType name="langueType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--fifth contraint-->
+    <xs:simpleType name="prixType">
+        <xs:restriction base="xs:decimal">
+            <xs:maxExclusive value="10000"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+ 
+    <!--sixth contraint-->
+    <xs:simpleType name="dateType">
+        <xs:restriction base="xs:gYear">
+            <xs:minExclusive value="1800"/>
+            <xs:maxExclusive value="2025"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--seventh contraint-->
+    <xs:simpleType name="pageType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]+à[0-9]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+ 
+ <xs:element name="bibliotheque">
+     <xs:complexType>
+         <xs:sequence>
+             <xs:element name="livre" maxOccurs="unbounded">
+                 <xs:complexType>
+                     <xs:sequence>
+                         <xs:element name="titre" type="titreType"/>
+                         <xs:element name="genre" type="genreType" default="Scientifique"/>   
+                         <xs:element name="langue" type="langueType"/>
+                         <xs:element name="prix" type="prixType"/>
+                         <xs:element name="resume" type="xs:string" minOccurs="0"/>
+                         <xs:element name="annee_de_publication" type="dateType"/>
+                         <xs:element name="chapitres" >
+                             <xs:complexType>
+                                 <xs:sequence>
+                                     <xs:element name="chapitre" maxOccurs="unbounded">
+                                         <xs:complexType>
+                                             <xs:sequence>
+                                                 <xs:element name="titre" type="xs:string"/>
+                                                 <xs:element name="sousTitre" type="xs:string" minOccurs="0"/>
+                                                 <xs:element name="nombre_page" type="pageType"/>
+                                             </xs:sequence>
+                                         </xs:complexType>
+                                     </xs:element>
+                                 </xs:sequence>
+                             </xs:complexType>
+                         </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="id" type="ISBN" use="required"/> 
+                 </xs:complexType>
+             </xs:element>
+                    
+         </xs:sequence>
+        
+     </xs:complexType>
+ </xs:element>
+    
+</xs:schema>

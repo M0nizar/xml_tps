@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<etablissements xmlns="http://www.example.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.com exo1.xsd">
+<universite>
+    <nom>Université de Sidi Bel Abbes</nom>
+    <annee_fondation>1978</annee_fondation>
+    <faculte>
+        <nom>Sciences Exactes</nom>
+        <doyen>Attouch Mohammed</doyen>
+        <departement>
+            <nom>Informatique</nom>
+            <chef_departement>Benali Youcef</chef_departement>
+            <enseignants>
+                <enseignant id="ENS001" grade="MCA">
+                    <nom>Ammar</nom>
+                    <prenom>Réda</prenom>
+                    <date_naissance>1958-09-30</date_naissance>
+                    <specialite>Intelligence Artificielle</specialite>
+                    <enseignements>
+                        <matière code="INF101" type="cours">
+                            <titre>Intelligence Artificielle avancée</titre>
+                            <credits>6</credits>
+                        </matière>
+                        <matière code="INF302" type="TP">
+                            <titre>Introduction à la programmation Python</titre>
+                            <credits>3</credits>
+                        </matière>
+                    </enseignements>
+                </enseignant>
+                <!--Autres enseignants -->
+            </enseignants>
+        </departement>
+        <!--Autres départements -->
+    </faculte>
+    <!--Autres facultés -->
+</universite>
+<!--Autres etablissements -->
+</etablissements>

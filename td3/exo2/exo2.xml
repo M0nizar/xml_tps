@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference id="CONF2025"
+    xmlns="http://www.example.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.com exo2.xsd">
+
+    <titre>Conférence Internationale sur l'Intelligence Artificielle</titre>
+    <annee>2025</annee>
+    <lieu>Paris, France</lieu>
+    <organisateur>Université de Paris</organisateur>
+    <sessions>
+        <session type="Atelier">
+            <titre>L'avenir de l'IA dans la médecine</titre>
+            <intervenant email="dr.smith@example.com">Dr. John Smith</intervenant>
+            <duree unite="heures">2</duree>
+        </session>
+        
+        <session type="Présentation">
+            <titre>Apprentissage profond pour les débutants</titre>
+            <intervenant email="jane-nizar.doe@example.com">Jane Doe</intervenant>
+            <duree unite="minutes">90</duree>
+        </session>
+        
+        <session type="Table-Ronde">
+            <titre>Défis éthiques de l'IA</titre>
+            <intervenant>Email non disponible</intervenant>
+            <duree unite="minutes">60</duree>
+        </session>
+    </sessions>
+</conference>
+

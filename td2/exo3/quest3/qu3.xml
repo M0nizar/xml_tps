@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entreprise SYSTEM "qu3.dtd">
+<entreprise>
+    <personnes>
+        <personne id="P1" listeIDproj="PR1">
+            <nom>Omar</nom>
+            <infoPER>Traducteur</infoPER>
+        </personne>
+        <personne id="P2" listeIDproj="PR1 PR2">
+            <nom>Zohra</nom>
+            <infoPER>Traductrice</infoPER>
+        </personne>
+        <personne id="P3" listeIDproj="PR2">
+            <nom>Mohamed</nom>
+            <infoPER>Documentaliste</infoPER>
+        </personne>
+    </personnes>
+    
+    <projets>
+        <projet id="PR1" listeIDpers="P1 P2">
+            <nom>Projet de Traduction</nom>
+            <descriptif>Traduire certains éléments de la documentation de l'entreprise.</descriptif>
+        </projet>
+        <projet id="PR2" listeIDpers="P2 P3">
+            <nom>Projet de Construction de Corpus</nom>
+            <descriptif>Rassembler et structurer toute la documentation de l'entreprise.</descriptif>
+        </projet>
+    </projets>
+</entreprise>

@@ -1,0 +1,14 @@
+
+
+<!-- first exo-->
+
+1 -- //country[population[. > 6000000]]/name
+2 -- /mondial/country[@car_code="DZ"]/border[@length = max(../border/@length)]/@country
+3 -- count(//country[dependent[@country="CN"]])
+4 -- //country[contains(@memberships, "org-AU")][indep_date[@from="F"]]/name
+5 -- //country[@capital = //organization[name="League of Arab States"]/@headq]/ indep_date/text()
+6 -- //country[not(border)]/name
+7 -- //country[@car_code="CN"]/population[last()] * //country[@car_code="CN"]/religion[text()="Muslim"]/@percentage div 100
+
+
+<!--there is solution for other exercoses in e-learn -->

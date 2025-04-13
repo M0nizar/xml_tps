@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+           vc:minVersion="1.1">
+
+<!-- first: whiteSpace in restricions with values: preserve, replace, collapse -->
+<!-- controls white spaces-->
+<xs:simpleType name="first">
+    <xs:restriction base="xs:string">
+        <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+</xs:simpleType>
+
+
+<!-- second: fractionDigits in restricionts-->
+<!-- max number of digits after decimal point-->
+<xs:simpleType name="second">
+    <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="2"/> 
+    </xs:restriction>
+</xs:simpleType>
+
+
+<!-- third: total digits in restricionts-->
+<!-- exact number of digits in a number alue-->
+<xs:simpleType name="third">
+    <xs:restriction base="xs:decimal">
+         <xs:totalDigits value="6"/> 
+    </xs:restriction>
+</xs:simpleType>
+
+
+<!-- fourth: group indicator-->
+<!-- Group indicators are used to define related sets of elements.-->
+<xs:group name="fourth">
+  <xs:sequence>
+    <xs:element name="firstname" type="xs:string"/>
+    <xs:element name="lastname" type="xs:string"/>
+    <xs:element name="birthday" type="xs:date"/>
+  </xs:sequence>
+</xs:group>
+
+
+<!-- fifth: attribute group-->
+<xs:attributeGroup name="fifth">
+  <xs:attribute name="firstname" type="xs:string"/>
+  <xs:attribute name="lastname" type="xs:string"/>
+  <xs:attribute name="birthday" type="xs:date"/>
+</xs:attributeGroup>
+
+<!-- sixth: any element-->
+<!-- possibility for extension witout changing the schema-->
+<xs:element name="sixth">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+
+<!-- seventh: anyAttribute-->
+<!-- extend the XML document with attributes not specified by the schema-->
+<xs:element name="seventh">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="firstname" type="xs:string"/>
+      <xs:element name="lastname" type="xs:string"/>
+    </xs:sequence>
+    <xs:anyAttribute/>
+  </xs:complexType>
+</xs:element>
+
+<!-- eighth: subtitutionGroup-->
+<!--instances of the head element can be replaced by any of its substitutable elements. -->
+<xs:element name="animal" type="xs:string" abstract="true"/>
+
+<xs:element name="dog" type="xs:string" substitutionGroup="animal"/>
+<xs:element name="cat" type="xs:string" substitutionGroup="animal"/>
+
+
+<!-- nineth: conditional contraints-->
+<!-- using assert-->
+<xs:element name="ninth">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="age" type="xs:integer"/>
+        </xs:sequence>
+        <xs:assert test="age >= 18"/>
+    </xs:complexType>
+</xs:element>
+
+
+<!-- tenth: union types-->
+<!-- allow multiples data types-->
+<xs:simpleType name="tenth">
+    <xs:union memberTypes="xs:string xs:integer"/>
+</xs:simpleType>
+
+
+<!-- eleventh: list type-->
+<xs:simpleType name="ColorList">
+    <xs:list itemType="xs:string"/>
+</xs:simpleType>
+
+
+
+</xs:schema>

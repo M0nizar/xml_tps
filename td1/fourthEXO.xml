@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecole>
+<!-- eleve 1-->
+<eleve>
+<matricule> E01 </matricule>
+
+<section> A </section>
+
+<nom>benmohamed</nom>
+
+<prenom>ali</prenom>
+
+<groupe>08</groupe>
+
+<naissance>
+  <date>13/12/2004</date>
+  <lieu>constantine</lieu>
+</naissance>
+
+<addresse>
+  <rue>7 rue pasteur</rue>
+  <code_pastel>22016</code_pastel>
+  <wilaya>sidi bel abbess</wilaya>
+</addresse>
+
+<trimestres>
+
+<trimeste numero="1">
+<module name="frensh">12</module>
+<module name="history">14</module>
+<module name="math">9</module>
+<module name="physics">6</module>
+<module name="art">14</module>
+</trimeste>
+
+<trimeste numero="2">
+<module name="frensh">9</module>
+<module name="history">17</module>
+<module name="math">7</module>
+<module name="physics">9</module>
+<module name="art">12</module>
+</trimeste>
+
+<trimeste numero="3">
+<module name="frensh">6</module>
+<module name="history">9</module>
+<module name="math">4</module>
+<module name="physics">6</module>
+<module name="art">13</module>
+</trimeste>
+
+</trimestres>
+</eleve>
+
+</ecole>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT entreprise (personnes , projets)>
+
+<!ELEMENT personnes (personne+)>
+<!ELEMENT personne (nom , infoPER)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT infoPER (#PCDATA)>
+<!ATTLIST personne id ID #REQUIRED>
+<!ATTLIST personne listeIDproj IDREFS #REQUIRED>
+
+
+<!ELEMENT projets (projet*)>
+<!ELEMENT projet (nom , descriptif)>
+<!ELEMENT descriptif (#PCDATA)>
+<!ATTLIST projet id ID #REQUIRED>
+<!ATTLIST projet listeIDpers IDREFS #REQUIRED>

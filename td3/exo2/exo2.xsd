@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    
+    
+    
+    
+    
+    <!--first contraint-->
+    <xs:simpleType name="titreLenght">
+      <xs:restriction base="xs:string">
+          <xs:maxLength value="80"></xs:maxLength>
+          <!--<xs:pattern value="([a-zA-Z0-9](\s[a-zA-Z0-9])*){1,80}"></xs:pattern>-->
+      </xs:restriction>
+    </xs:simpleType>
+    
+    <!--second contraint-->
+    <xs:simpleType name="anneeLenght">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--third contraint-->
+    <xs:simpleType name="sessionAttribute">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Atelier"/>
+            <xs:enumeration value="Présentation"/>
+            <xs:enumeration value="Table-Ronde"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--fourth contraint-->
+    <xs:simpleType name="uniteType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="minutes"/>
+            <xs:enumeration value="heures"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!--fifth contraint-->
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z]+(-[a-z]+)?\.[a-z]+(-[a-z]+)?@[a-z]+(-[a-z]+)?\.[a-z]{2,3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="conference">
+       <xs:complexType>
+           <xs:sequence>
+               <xs:element name="titre" type="titreLenght"/>
+               <xs:element name="annee" type="anneeLenght"/>
+               <xs:element name="lieu" type="xs:string"/>
+               <xs:element name="organisateur" type="xs:string"/>
+               <xs:element name="sessions">
+                   <xs:complexType>
+                       <xs:sequence>
+                           <xs:element name="session" maxOccurs="unbounded">
+                               <xs:complexType>
+                                   <xs:sequence>
+                                       <xs:element name="titre" type="xs:string"/>
+                                       <xs:element name="intervenant" >
+                                           <xs:complexType mixed="true">
+                                               <xs:attribute name="email" type="emailType"/>   
+                                           </xs:complexType>
+                                       </xs:element>
+                                       <xs:element name="duree">
+                                           <xs:complexType mixed="true">
+                                               <xs:attribute name="unite" type="uniteType" default="minutes"/>   
+                                           </xs:complexType>
+                                       </xs:element>
+                                   </xs:sequence>    
+                                   <xs:attribute name="type" type="sessionAttribute" use="required" />
+                               </xs:complexType>
+                           </xs:element>
+                       </xs:sequence>    
+                   </xs:complexType>
+               </xs:element>
+           </xs:sequence>
+           <xs:attribute name="id" type="xs:string" use="required"/>
+       </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

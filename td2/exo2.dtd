@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT facture (vendeur , acheteur , listeSERVorBIEN , rubrique)>
+
+<!--vendeur section-->
+<!ELEMENT vendeur ((fullname | raisonsociale) , formejuridique , siegeSOCIAL , capital , coordonne ,factureINFO)>
+
+<!ELEMENT fullname (nom , prenom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+
+<!ELEMENT raisonsociale (#PCDATA)>
+
+<!ELEMENT formejuridique (#PCDATA)>
+
+<!ELEMENT siegeSOCIAL (adresse , commune , code_postal , email , telephone , fax)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT commune (#PCDATA)>
+<!ELEMENT code_postal (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+
+<!ELEMENT capital (#PCDATA)>
+
+<!ELEMENT coordonne (RC,AI,NIF,NIS)>
+<!ELEMENT RC (#PCDATA)>
+<!ELEMENT AI (#PCDATA)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT NIS (#PCDATA)>
+
+<!ELEMENT factureINFO (modePAIEMENT , dateREGLEMENT,dateETABLISSEMENT, numeroORDRE)>
+<!ELEMENT modePAIEMENT (#PCDATA)>
+<!ELEMENT dateREGLEMENT (#PCDATA)>
+<!ELEMENT dateETABLISSEMENT (#PCDATA)>
+<!ELEMENT numeroORDRE (#PCDATA)>
+
+<!--vendeur section-->
+<!ELEMENT acheteur ((fullname2 | raisonsociale2) , formejuridique2 , siegeSOCIAL2 , coordonne2)>
+
+<!ELEMENT fullname2 (nom2 , prenom2)>
+<!ELEMENT nom2 (#PCDATA)>
+<!ELEMENT prenom2 (#PCDATA)>
+
+<!ELEMENT raisonsociale2 (#PCDATA)>
+
+<!ELEMENT formejuridique2 (#PCDATA)>
+
+<!ELEMENT siegeSOCIAL2 (adresse2 , commune2 , code_postal2)>
+<!ELEMENT adresse2 (#PCDATA)>
+<!ELEMENT commune2 (#PCDATA)>
+<!ELEMENT code_postal2 (#PCDATA)>
+
+<!ELEMENT coordonne2 (RC2,AI2,NIF2,NIS2)>
+<!ELEMENT RC2 (#PCDATA)>
+<!ELEMENT AI2 (#PCDATA)>
+<!ELEMENT NIF2 (#PCDATA)>
+<!ELEMENT NIS2 (#PCDATA)>
+
+<!--listeSERVorBIEN section-->
+<!ELEMENT listeSERVorBIEN (vendue+)>
+<!ELEMENT vendue (denomenation,quantite,prix_unitaire_hors_taxes)>
+<!ELEMENT denomenation (#PCDATA)>
+<!ELEMENT quantite (#PCDATA)>
+<!ELEMENT prix_unitaire_hors_taxes (#PCDATA)>
+<!ATTLIST vendue type (service | bien) #REQUIRED>
+
+<!--rubrique section-->
+<!ELEMENT rubrique (prix_total_horstaxes,taxe_valeur_ajoutee,Prix_Total_Taxes_Comprises)>
+<!ELEMENT prix_total_horstaxes (enCHIFFRES1,enLETTRE1)>
+<!ELEMENT enCHIFFRES1 (#PCDATA)>
+<!ELEMENT enLETTRE1 (#PCDATA)>
+<!ELEMENT taxe_valeur_ajoutee (enCHIFFRES2,enLETTRE2)>
+<!ELEMENT enCHIFFRES2 (#PCDATA)>
+<!ELEMENT enLETTRE2 (#PCDATA)>
+<!ELEMENT Prix_Total_Taxes_Comprises (enCHIFFRES3,enLETTRE3)>
+<!ELEMENT enCHIFFRES3 (#PCDATA)>
+<!ELEMENT enLETTRE3 (#PCDATA)>

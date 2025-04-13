@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+    
+    <xs:element name="Facture">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Info_venduer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Dénomination">
+                                <xs:complexType>
+                                    <xs:choice>
+                                        <xs:element name="Nom_Personne_Phy">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nom" type="xs:string"/>
+                                                    <xs:element name="Prénom" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Raison_social" type="xs:string"/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Forme_juridique" type="xs:string"/>
+                            <xs:element name="Adresse">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Rue" type="xs:string"/>
+                                        <xs:element name="Commune" type="xs:string"/>
+                                        <xs:element name="Willaya" type="xs:string"/>
+                                        <xs:element name="Code" type="xs:string"/>
+                                        <xs:element name="Email" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Téléphone" type="xs:string"/>
+                                        <xs:element name="Fax" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Capital_social" type="xs:string"/>
+                            <xs:element name="Coordonnées_fiscales">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="RC" type="xs:string"/>
+                                        <xs:element name="AI" type="xs:string"/>
+                                        <xs:element name="NIF" type="xs:string"/>
+                                        <xs:element name="NIS" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Modalité_paiement">
+                                <xs:complexType>
+                                    <xs:attribute name="Mode_paiement" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="Chèque"/>
+                                                <xs:enumeration value="Liquidité"/>
+                                                <xs:enumeration value="Virement_bancaire"/>
+                                                <xs:enumeration value="Versement_bancaire"/>
+                                                <xs:enumeration value="à_terme"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="Date" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Info_acheteur">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Dénomination" type="xs:string"/>
+                            <xs:element name="Forme_juridique" type="xs:string"/>
+                            <xs:element name="Adresse" type="xs:string"/>
+                            <xs:element name="Coordonnées_fiscales" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Lignes_articles">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Article" type="xs:string"/>
+                            <xs:element name="Quantité" type="xs:string"/>
+                            <xs:element name="Prix_unitaire" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Montants_globaux">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Prix_total_HT" type="xs:string"/>
+                            <xs:element name="TVA" type="xs:string"/>
+                            <xs:element name="Prix_total_TTC" type="xs:string"/>
+                            <xs:element name="Prix_total_TTC_lettre" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Référence" type="xs:string" use="required"/>
+            <xs:attribute name="Date" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

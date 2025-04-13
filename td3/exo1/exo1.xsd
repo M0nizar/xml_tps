@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+
+    elementFormDefault="qualified">
+    
+    <xs:element name="etablissements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="universite" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string"/>
+                            <xs:element name="annee_fondation" type="xs:gYear"/>
+                            <xs:element name="faculte" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nom" type="xs:string"/>
+                                        <xs:element name="doyen" type="xs:string"/>
+                                        <xs:element name="departement" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nom" type="xs:string"/>
+                                                    <xs:element name="chef_departement" type="xs:string"/>
+                                                    <xs:element name="enseignants">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="enseignant" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="nom" type="xs:string"/>
+                                                                            <xs:element name="prenom" type="xs:string"/>
+                                                                            <xs:element name="date_naissance" type="xs:date"/>
+                                                                            <xs:element name="specialite" type="xs:string"/>
+                                                                            <xs:element name="enseignements">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element name="matière" maxOccurs="unbounded">
+                                                                                            <xs:complexType>
+                                                                                                <xs:sequence>
+                                                                                                    <xs:element name="titre" type="xs:string"/>
+                                                                                                    <xs:element name="credits" type="xs:int"/>
+                                                                                                </xs:sequence>
+                                                                                                <xs:attribute name="code" type="xs:string" use="required"/>
+                                                                                                <xs:attribute name="type" type="xs:string" use="required"/>
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="id" type="xs:string" use="required"/>
+                                                                        <xs:attribute name="grade" type="xs:string" use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
