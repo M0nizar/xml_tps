@@ -321,10 +321,89 @@ local:my-function("Hergé")
 ----
 ### Exercise two :
 1. Title, genre, and country for all films before 1970 :
+```xq
+for $f in doc("films.xml")//FILM[@annee < 1970]
+return
+  <film>
+    <titre>{ $f/TITRE/text() }</titre>
+    <genre>{ $f/GENRE/text() }</genre>
+    <pays>{ $f/PAYS/text() }</pays>
+  </film>
+```
 2. Roles played by Bruce Willis :
+```xq
+for $r in doc("films.xml")//ROLE[PRENOM = "Bruce" and NOM = "Willis"]
+return
+  <role>{ $r/INTITULE/text() }</role>
+```
 3. Roles played by Bruce Willis in the form of an element with the title of the film and the character name :
+```xq
+for $f in doc("films.xml")//FILM[ROLES/ROLE[PRENOM = "Bruce" and NOM = "Willis"]]
+let $role := $f/ROLES/ROLE[PRENOM = "Bruce" and NOM = "Willis"]
+return
+  <role>
+    <titre>{ $f/TITRE/text() }</titre>
+    <personnage>{ $role/INTITULE/text() }</personnage>
+  </role>
+```
 4. The name of the director of the movie "Vertigo" :
+```xq
+let $film := doc("films.xml")//FILM[TITRE = "Vertigo"]
+let $id := $film/MES/@idref
+let $a := doc("artistes.xml")//ARTISTE[@id = $id]
+return
+  <director>{ $a/ARTPNOM || " " || $a/ARTNOM }</director>
+```
 5. For each artist, their name and the titles of the films they directed :
+```xq
+for $a in doc("artistes.xml")//ARTISTE
+let $films := doc("films.xml")//FILM[MES/@idref = $a/@id]
+return
+  <artiste>
+    <fullname>{ $a/ARTPNOM || " " || $a/ARTNOM }</fullname>
+    {
+      for $f in $films
+      return <film>{ $f/TITRE }</film>
+    }
+  </artiste>
+```
 6. For each film, the age of its director at the time of the film’s release :
+```xq
+for $f in doc("films.xml")//FILM
+let $id := $f/MES/@idref
+let $a := doc("artistes.xml")//ARTISTE[@id = $id]
+let $naissance := xs:integer($a/ANNEENAISS)
+let $annee := xs:integer($f/@annee)
+return
+  <film>
+    <titre>{ $f/TITRE/text() }</titre>
+    <age>{ $annee - $naissance }</age>
+  </film>
+```
 7. For each film genre, produce an element with the genre name as an attribute and containing the titles of the films in that genre :
+```xq
+for $g in distinct-values(doc("films.xml")//GENRE)
+return
+  <genre nom="{$g}">
+    {
+      for $f in doc("films.xml")//FILM[GENRE = $g]
+      return <film>{ $f/TITRE }</film>
+    }
+  </genre>
+```
 8. Artists who played in a film they directed. For each artist, create an element with their full name (first name followed by last name), and include film elements containing the title and year of the film :
+```xq
+for $a in doc('artistes.xml')//ARTISTE
+let $nom := $a/NOM
+let $prenom := $a/PRENOM
+let $id := $a/@id
+let $films := doc('films.xml')//FILM[MES/@idref = $id and ROLES/ROLE[PRENOM = $prenom and NOM = $nom]]
+where exists($films)
+return
+  <artiste fullname="{ $prenom || ' ' || $nom }">
+    {
+      for $f in $films
+      return <film annee="{ $f/@annee }">{ $f/TITRE }</film>
+    }
+  </artiste>
+```
