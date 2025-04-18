@@ -1,8 +1,8 @@
 # Homework LOW
 ## Part one:
-summaries for some concepts :
+* summaries for some concepts :
 1. template :
-An element in XSLT defines how a specific node or pattern will transform.
+* An element in XSLT defines how a specific node or pattern will transform.
 **Syntax :**
 ```xslt
 <xsl:template match="condition" name="name">
@@ -52,8 +52,9 @@ Birthday: 2001-05-12
 Name: Sarah Amrani
 Birthday: 2000-11-23
 ```
+----
 2. apply-template :
-an xslt instruction that look for matching templates by comparing the select value with match value of the template.
+* an xslt instruction that look for matching templates by comparing the select value with match value of the template.
 **Syntax :**
 ```xslt
 <xsl:apply-template select="xpath expression"/>
@@ -61,7 +62,7 @@ an xslt instruction that look for matching templates by comparing the select val
 **Exemple :**   
 
 **xml file :**  
-same as the file used in the previous concept.  
+* same as the file used in the previous concept.  
 
 **xslt file :**
 ```xslt
@@ -79,10 +80,10 @@ same as the file used in the previous concept.
 ```
 
 **result :**  
-same result as the preevious concept.
-
+* same result as the preevious concept.
+----
 3. call-template :
-an xslt instruction that used for calling a named template works like manual trigger unlike apply-template witch is automatically finds the template.
+* an xslt instruction that used for calling a named template works like manual trigger unlike apply-template witch is automatically finds the template.
 **Syntax :**
 ```xslt
 <xsl:call-template name="name of the template"/>
@@ -90,7 +91,7 @@ an xslt instruction that used for calling a named template works like manual tri
 **Exemple:**  
 
 **xml file :**  
-same as the file used in the previous concept.  
+* same as the file used in the previous concept.  
 
 **xslt file :** 
 ```xslt
@@ -108,25 +109,28 @@ same as the file used in the previous concept.
 ```
 
 **result :**  
-same result as the preevious concept.
+* same result as the preevious concept.
+----
+4. functions :
+* xslt 1.0 does not support custom functions (user defined functions) but it does in the 2.0 version.
+* xslt 1.0 only support built-in functions witch are tools that helps us manipulate data with its different types (string(),concat(a,b),number(),position().....).  
+* in 1.0 version user can simulate functions with named templates and call it with call-template.  
 
-6. functions :
-xslt 1.0 does not support custom functions (user defined functions) but it does in the 2.0 version.
-xslt 1.0 only support built-in functions witch are tools that helps us manipulate data with its different types (string(),concat(a,b),number(),position().....).
-in 1.0 version user can simulate functions with named templates and call it with call-template.
-Exemple:
+**Exemple:**
 ```xslt
 <xsl:template name="used_template">
   <xsl:param name="name"/>
   name : <xsl:value-of select="$name"/>
 </xsl:template>
 ```
-in 2.0 version user can define functions like that :  
+* in 2.0 version user can define functions like that :  
 ```xslt
 <xsl:function name="function_name" as="xs:output-type">
+  <!--define parametres = arguments-->
   <xsl:param name="a" as="xs:para-type"/>
-  <xsl:param name="b" as="xs:para-type"/>
-  <xsl:sequence select="$a + $b"/>
+
+  <!--the return done by using sequence -->
+  <xsl:sequence select="expression-to-return"/>
 </xsl:function>
 ```
 
