@@ -136,17 +136,17 @@ Birthday: 2000-11-23
 ## Part two:
 ### Exercise one :
 1. List all albums in ascending alphabetical order :
-```
+```xq
 for $v in doc("albums.xml")//album
 order by $v/titre
 return $v
 ```
 2. Albums published after 1970 :
-```
+```xq
 doc("albums.xml")//album[date/annee>1970]
 ```
 3. Authors who participated in more than one album :
-```
+```xq
 for $v in distinct-values(doc("albums.xml")//auteur)
 let $count := count(doc("albums.xml")//auteur[. = $v])
 where $count > 1
@@ -154,7 +154,7 @@ return $v
 
 ```
 4. Find the most recent album of each series :
-```
+```xq
 for $v in distinct-values(doc("albums.xml")//album/@serie)
 let $s := doc("albums.xml")//album[@serie = $v]
 let $recent := max($s/date/annee)
@@ -166,7 +166,7 @@ return <serie name="{$v}">
 </serie>
 ```
 5. Group albums by series and count the number of albums per series :
-```
+```xq
 for $v in doc("albums.xml")//album
 let $s := $v/@serie
 group by $s
@@ -177,10 +177,9 @@ return
       return $i
     }
   </serie>
-
 ```
 6. Find the series with the most albums :
-```
+```xq
 let $count :=
   for $s in distinct-values(doc("albums.xml")//album/@serie)
   let $a := doc("albums.xml")//album[@serie = $s]
@@ -192,7 +191,7 @@ for $serie in $count[@count = $maxCount]
 return $serie
 ```
 7. Find the years where the most albums were published :
-```
+```xq
 let $counts :=
   for $v in distinct-values(doc("albums.xml")//album/date/annee)
   let $a := doc("albums.xml")//album[date/annee = $v]
@@ -204,7 +203,7 @@ for $c in $counts[@count = $max]
 return $c
 ```
 8. List albums published more than 10 years apart from the previous album in the same series :
-```
+```xq
 for $serie in distinct-values(doc("albums.xml")//album/@serie)
 let $albums := doc("albums.xml")//album[@serie = $serie]
 let $sortedAlbums := sort($albums, function($a, $b) {xs:dateTime($a/date/annee) < xs:dateTime($b/date/annee)})
@@ -215,14 +214,14 @@ let $previous := $album
 where $dateDiff > 10
 ```
 9. Find authors who participated in multiple different series :
-```
+```xq
 for $author in distinct-values(doc("albums.xml")//auteur)
 let $series := distinct-values(doc("albums.xml")//album[auteur = $author]/@serie)
 where count($series) > 1
 return $author
 ```
 10. Identify the author who wrote the most albums :
-```
+```xq
 let $authors := doc("albums.xml")//auteur
 let $count-by-author := for $author in distinct-values($authors)
                         let $count := count(doc("albums.xml")//auteur[. = $author])
@@ -231,18 +230,94 @@ let $max-count := max($count-by-author//author/@count)
 for $author in $count-by-author
 where $author/@count = $max-count
 return $author
-
 ```
-18. Display albums with exactly the same title but in a different series :
-19. Declare and invoke a function to get the oldest albums by an author (e.g., "Hergé") :
-20. Add the author "Uderzo" to album number 1 of the "Tintin" series :
-21. Add an "éditeur" attribute "La plume" to album number 3 of the "Astérix" series :
-22. Add the author "Hergé" to all albums of the "Tintin" series that don’t already have him :
-23. Change the "serie" attribute of all "Astérix" albums to "Astérix et Obélix" :
-24. Remove all albums from the "Tintin" series published before 1950 :
-25. Increase the publication year of all "Astérix" albums after 1980 :
-26. Change the "album" element of the first album of each series to "Premier_album" :
-27. Add a new album at the end of the "Tintin" series :
+11. Display albums with exactly the same title but in a different series :
+```xq
+for $album1 in doc("albums.xml")//album
+for $album2 in doc("albums.xml")//album
+where $album1/titre = $album2/titre and $album1/@serie != $album2/@serie
+return <albums>{$album1}</albums>
+```
+12. Declare and invoke a function to get the oldest albums by an author (e.g., "Hergé") :
+```xq
+declare function local:my-function($author as xs:string) {
+  let $as := doc("albums.xml")//album[auteur = $author]
+  let $sortedas := for $a in $as
+                       order by $a/date/annee ascending
+                       return $a
+  return $sortedas[1] 
+};
+local:my-function("Hergé")
+```
+13. Add the author "Uderzo" to album number 1 of the "Tintin" series :
+```xq
+  let $v := doc("albums.xml")//album[@serie="Tintin" and @numero="1"]
+   return insert node <auteur>Uderzo</auteur> 
+    as last into $v/auteur
+```
+14. Add an "éditeur" attribute "La plume" to album number 3 of the "Astérix" series :
+```xq
+ let $v := doc("albums.xml")//album[@serie="Astérix" and @numero="3"]
+  return
+    insert attribute editeur {"La plume"} 
+    into $v
+```
+15. Add the author "Hergé" to all albums of the "Tintin" series that don’t already have an author :
+```xq
+ let $tintin := doc("albums.xml")//album[@serie="Tintin"]
+  return
+    for $v in $tintin
+    where empty($album/auteur)
+    insert node <auteur>Hergé</auteur> 
+    as last into $v/auteur
+```
+16. Change the "serie" attribute of all "Astérix" albums to "Astérix et Obélix" :
+```xq
+ let $as := doc("albums.xml")//album[@serie="Astérix"]
+  return
+    for $v in $as
+    modify 
+      replace value of $v/@serie with "Astérix et Obélix"
+```
+17. Remove all albums from the "Tintin" series published before 1950 :
+```xq
+  let $old := doc("albums.xml")//album[@serie="Tintin" and xs:int($album/date/annee) < 1950]
+  return
+    for $v in $old
+    modify 
+      delete node $v
+```
+18. Increase the publication year of all "Astérix" albums after 1980 :
+```xq
+  let $v := doc("albums.xml")//album[@serie="Astérix" and xs:int($album/date/annee) > 1980]
+  return
+    for $al in $v
+    modify 
+      replace value of $album/date/annee with xs:int($album/date/annee) + 1
+```
+19. Change the "album" element of the first album of each series to "Premier_album" :
+```xq
+ let $first := doc("albums.xml")//album[@numero="1"]
+  return
+    for $v in $first
+    modify
+      rename node $v as "Premier_album"
+```
+20. Add a new album at the end of the "Tintin" series :
+```xq
+  let $last := last(doc("albums.xml")//album[@serie="Tintin"])
+  return
+    insert node
+      <album numero="25" serie="Tintin">
+        <titre>Le Nouveau Mystère</titre>
+        <auteur>Hergé</auteur>
+        <date>
+          <mois>mars</mois>
+          <annee>2025</annee>
+        </date>
+      </album>
+    as last into $last/following-sibling::*[1]
+```
 ----
 ### Exercise two :
 1. Title, genre, and country for all films before 1970 :
