@@ -330,12 +330,12 @@ local:my-function("Hergé")
 ### Exercise two :
 1. Title, genre, and country for all films before 1970 :
 ```xq
-for $f in doc("films.xml")//FILM[@annee < 1970]
+for $f in doc("films.xml")//film[@annee < 1970]
 return
   <film>
-    <titre>{ $f/TITRE/text() }</titre>
-    <genre>{ $f/GENRE/text() }</genre>
-    <pays>{ $f/PAYS/text() }</pays>
+    <titre>{ $f/titre }</titre>
+    <genre>{ $f/genre }</genre>
+    <pays>{ $f/pays }</pays>
   </film>
 ```
 2. Roles played by Bruce Willis :
@@ -401,17 +401,17 @@ return
 ```
 8. Artists who played in a film they directed. For each artist, create an element with their full name (first name followed by last name), and include film elements containing the title and year of the film :
 ```xq
-for $a in doc('artistes.xml')//ARTISTE
-let $nom := $a/NOM
-let $prenom := $a/PRENOM
+for $a in doc('artistes.xml')//artiste
+let $nom := $a/nom
+let $prenom := $a/prenom
 let $id := $a/@id
-let $films := doc('films.xml')//FILM[MES/@idref = $id and ROLES/ROLE[PRENOM = $prenom and NOM = $nom]]
+let $films := doc('films.xml')//film[mes/@idref = $id and roles/role[prenom = $prenom and nom = $nom]]
 where exists($films)
 return
   <artiste fullname="{ $prenom || ' ' || $nom }">
     {
       for $f in $films
-      return <film annee="{ $f/@annee }">{ $f/TITRE }</film>
+      return <film annee="{ $f/@annee }">{ $f/titre }</film>
     }
   </artiste>
 ```
