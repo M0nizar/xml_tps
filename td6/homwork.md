@@ -306,7 +306,7 @@ local:my-function("Hergé")
     for $v in $tintin
     where empty($album/auteur)
     insert node <auteur>Hergé</auteur> 
-    as first into $v/auteur
+    as first into $v
 ```
 > * explanation :
 >    * group albums with the serie="tintin", looping them and check if they have auteur element if they dont insrt the element auteur with the value herge at the first position.
@@ -432,8 +432,8 @@ return
 for $f in doc("films.xml")//FILM
 let $id := $f/MES/@idref
 let $a := doc("artistes.xml")//ARTISTE[@id = $id]
-let $naissance := xs:integer($a/ANNEENAISS)
-let $annee := xs:integer($f/@annee)
+let $naissance := $a/ANNEENAISS
+let $annee := $f/@annee
 return
   <film>
     <titre>{ $f/TITRE }</titre>
