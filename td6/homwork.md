@@ -402,16 +402,16 @@ return
 8. Artists who played in a film they directed. For each artist, create an element with their full name (first name followed by last name), and include film elements containing the title and year of the film :
 ```xq
 for $a in doc('artistes.xml')//ARTISTE
-let $nom := $a/nom
-let $prenom := $a/prenom
+let $nom := $a/ARTNOM
+let $prenom := $a/ARTPNOM
 let $id := $a/@id
-let $films := doc('films.xml')//FILM[mes/@idref = $id and ROLES/ROLE[prenom = $prenom and nom = $nom]]
+let $films := doc('films.xml')//FILM[MES/@idref = $id and ROLES/ROLE[PRENOM = $prenom and NOM = $nom]]
 where exists($films)
 return
   <artiste fullname="{ $prenom || ' ' || $nom }">
     {
       for $f in $films
-      return <film annee="{ $f/@annee }">{ $f/titre }</film>
+      return <film annee="{ $f/@annee }">{ $f/TITRE }</film>
     }
   </artiste>
 ```
