@@ -205,13 +205,17 @@ return $c
 8. List albums published more than 10 years apart from the previous album in the same series :
 ```xq
 for $serie in distinct-values(doc("albums.xml")//album/@serie)
-let $albums := doc("albums.xml")//album[@serie = $serie]
-let $sortedAlbums := sort($albums, function($a, $b) {xs:dateTime($a/date/annee) < xs:dateTime($b/date/annee)})
-let $previous := ()
-for $album in $sortedAlbums
-let $dateDiff := if (empty($previous)) then 0 else xs:int($album/date/annee) - xs:int($previous/date/annee)
-let $previous := $album
-where $dateDiff > 10
+let $albums :=
+  for $a in doc("albums.xml")//album[@serie = $serie]
+  order by xs:integer($a/date/annee)
+  return $a
+for $i in 2 to count($albums)
+let $current := $albums[$i]
+let $previous := $albums[$i - 1]
+let $diff := xs:integer($current/date/annee) - xs:integer($previous/date/annee)
+where $diff > 10
+return <album serie="{$serie}" titre="{$current/titre}" ecart="{$diff}"/>
+
 ```
 9. Find authors who participated in multiple different series :
 ```xq
