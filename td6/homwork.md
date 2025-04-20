@@ -380,22 +380,28 @@ return
     <pays>{ $f/PAYS }</pays>
   </film>
 ```
+> * explanation :
+>    * filtering films with year attribute < 1970 and then looping them to return each film with specific giving information. 
 2. Roles played by Bruce Willis :
 ```xq
 for $r in doc("films.xml")//ROLE[PRENOM = "Bruce" and NOM = "Willis"]
 return
-  <role>{ $r/INTITULE/text() }</role>
+  <role>{ $r/INTITULE }</role>
 ```
+> * explanation :
+>    * filering roles where name = willis and family name = bruce then looping them to display the roles of this person(intitule is an element inside film)
 3. Roles played by Bruce Willis in the form of an element with the title of the film and the character name :
 ```xq
 for $f in doc("films.xml")//FILM[ROLES/ROLE[PRENOM = "Bruce" and NOM = "Willis"]]
 let $role := $f/ROLES/ROLE[PRENOM = "Bruce" and NOM = "Willis"]
 return
   <role>
-    <titre>{ $f/TITRE/text() }</titre>
-    <personnage>{ $role/INTITULE/text() }</personnage>
+    <titre>{ $f/TITRE }</titre>
+    <personnage>{ $role/INTITULE }</personnage>
   </role>
 ```
+> * explanation :
+>    * filering movies where there is a role with name = willis and family name = bruce then store the role for each movie in each iteration then return a specific form of xml element.
 4. The name of the director of the movie "Vertigo" :
 ```xq
 let $film := doc("films.xml")//FILM[TITRE = "Vertigo"]
@@ -404,6 +410,8 @@ let $a := doc("artistes.xml")//ARTISTE[@id = $id]
 return
   <director>{ $a/ARTPNOM || " " || $a/ARTNOM }</director>
 ```
+> * explanation :
+>    * store the movies with a title = vertigo then store the id of its director, then store the artistes with same id then return the information of this artiste.
 5. For each artist, their name and the titles of the films they directed :
 ```xq
 for $a in doc("artistes.xml")//ARTISTE
@@ -417,6 +425,8 @@ return
     }
   </artiste>
 ```
+> * explanation :
+>    * looping through artists then group movies by the person who directed them then return information about these artists and the movies they directed.
 6. For each film, the age of its director at the time of the film’s release :
 ```xq
 for $f in doc("films.xml")//FILM
@@ -426,10 +436,12 @@ let $naissance := xs:integer($a/ANNEENAISS)
 let $annee := xs:integer($f/@annee)
 return
   <film>
-    <titre>{ $f/TITRE/text() }</titre>
+    <titre>{ $f/TITRE }</titre>
     <age>{ $annee - $naissance }</age>
   </film>
 ```
+> * explanation :
+>    * looping the movies, store the id of its director then group artistes with that id, store their birthday and the year of the movie then for each movie return the title and the age of the director in the time of the release.
 7. For each film genre, produce an element with the genre name as an attribute and containing the titles of the films in that genre :
 ```xq
 for $g in distinct-values(doc("films.xml")//GENRE)
@@ -441,6 +453,8 @@ return
     }
   </genre>
 ```
+> * explanation :
+>    * looping unique genre then for each genre we loop the movies that belongs to it then we return some info about them.
 8. Artists who played in a film they directed. For each artist, create an element with their full name (first name followed by last name), and include film elements containing the title and year of the film :
 ```xq
 for $a in doc('artistes.xml')//ARTISTE
@@ -457,3 +471,5 @@ return
     }
   </artiste>
 ```
+> * explanation :
+>    * looping the artists, store their name, family name and their id then filter movies where the director is one of the one who played the role in the same movie, if they exist we return some information about this artiste with the movies they played in and direct in the same time.
