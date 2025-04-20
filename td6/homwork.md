@@ -133,6 +133,10 @@ Birthday: 2000-11-23
   <xsl:sequence select="expression-to-return"/>
 </xsl:function>
 ```
+5. doc(xml file name) :
+>hello
+>hello
+>hello
 ## Part two:
 ### Exercise one :
 1. List all albums in ascending alphabetical order :
