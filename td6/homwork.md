@@ -134,9 +134,12 @@ Birthday: 2000-11-23
 </xsl:function>
 ```
 5. doc(xml file name) :
->hello
->hello
->hello
+* we can use this function when we want to directly loading an external xml file.
+* there is many cases where we dont need this function :
+    * when working on previous computed or loaded xml.
+    * when xml is passed in variable.
+    * when using collection function.
+> collection function allows you to access many xml files grouped with a logical name which is the name of the collection.
 ## Part two:
 ### Exercise one :
 1. List all albums in ascending alphabetical order :
@@ -145,18 +148,23 @@ for $v in doc("albums.xml")//album
 order by $v/titre
 return $v
 ```
+> * explanation :
+>    * looping throught albums elements and sorted them by their title(ascending). 
 2. Albums published after 1970 :
 ```xq
 doc("albums.xml")//album[date/annee>1970]
 ```
+> * explanation :
+>    * filter albums elements where their annee element is greater than 1970.
 3. Authors who participated in more than one album :
 ```xq
 for $v in distinct-values(doc("albums.xml")//auteur)
 let $count := count(doc("albums.xml")//auteur[. = $v])
 where $count > 1
 return $v
-
 ```
+> * explanation :
+>    * looping throught authors with distinct values, and count for every distinct value how many it appears in the list where the values are duplicated, and then filtering them where the count > 1
 4. Find the most recent album of each series :
 ```xq
 for $v in distinct-values(doc("albums.xml")//album/@serie)
@@ -169,6 +177,8 @@ return <serie name="{$v}">
   }
 </serie>
 ```
+> * explanation :
+>    * looping throught series with distinct values, then group albums by the serie, then store the greatest value of the year for the album of each serie then return them by looping and comparing year with the selected max.
 5. Group albums by series and count the number of albums per series :
 ```xq
 for $v in doc("albums.xml")//album
@@ -182,6 +192,8 @@ return
     }
   </serie>
 ```
+> * explanation :
+>    * looping throught albums elements and store their serie value for every iteration then group them by its value, then return each serie with its name and a value for number of albums that belongs to this serie.
 6. Find the series with the most albums :
 ```xq
 let $count :=
@@ -194,6 +206,8 @@ let $maxCount := max($count/@count/xs:integer(.))
 for $serie in $count[@count = $maxCount]
 return $serie
 ```
+> * explanation :
+>    * looping throught series with destinct values, then group albums with same serie, then count the number of them, after that we select the max number of albums of a serie and loop the series to select the series with max count.
 7. Find the years where the most albums were published :
 ```xq
 let $counts :=
@@ -206,6 +220,8 @@ let $max := max($counts/@count)
 for $c in $counts[@count = $max]
 return $c
 ```
+> * explanation :
+>    * looping year of the albums with distinct values and then group albums by the year, select the max of the number of the albums that belongs to a year then loop the years to select the years with max number of albums.
 8. List albums published more than 10 years apart from the previous album in the same series :
 ```xq
 for $serie in distinct-values(doc("albums.xml")//album/@serie)
@@ -219,8 +235,9 @@ let $previous := $albums[$i - 1]
 let $diff := xs:integer($current/date/annee) - xs:integer($previous/date/annee)
 where $diff > 10
 return <album serie="{$serie}" titre="{$current/titre}" ecart="{$diff}"/>
-
 ```
+> * explanation :
+>    * looping over each unique series then get albums of each serie sorted by year, then loop through albums and calculate the difference between an album and previous one, if the difference is > 10 return it if not skip to next iteration.
 9. Find authors who participated in multiple different series :
 ```xq
 for $author in distinct-values(doc("albums.xml")//auteur)
@@ -228,6 +245,8 @@ let $series := distinct-values(doc("albums.xml")//album[auteur = $author]/@serie
 where count($series) > 1
 return $author
 ```
+> * explanation :
+>    * looping over each unique author, select unique serie where the author worked on and then check if he worked in more then 1.
 10. Identify the author who wrote the most albums :
 ```xq
 let $authors := doc("albums.xml")//auteur
@@ -239,6 +258,8 @@ for $author in $count-by-author
 where $author/@count = $max-count
 return $author
 ```
+> * explanation :
+>    * store all authors in a var then store a list of authors with a number of their appears in albums then try to find the max count between them.
 11. Display albums with exactly the same title but in a different series :
 ```xq
 for $album1 in doc("albums.xml")//album
@@ -246,6 +267,8 @@ for $album2 in doc("albums.xml")//album
 where $album1/titre = $album2/titre and $album1/@serie != $album2/@serie
 return <albums>{$album1}</albums>
 ```
+> * explanation :
+>    * looping over every pair of albums and check if they have the same title and different series if so return them.
 12. Declare and invoke a function to get the oldest albums by an author (e.g., "Hergé") :
 ```xq
 declare function local:my-function($author as xs:string) {
@@ -257,12 +280,16 @@ declare function local:my-function($author as xs:string) {
 };
 local:my-function("Hergé")
 ```
+> * explanation :
+>    * declaring a function that goup all albums with a specific author then select the album with the least value of year(oldest)
 13. Add the author "Uderzo" to album number 1 of the "Tintin" series :
 ```xq
   let $v := doc("albums.xml")//album[@serie="Tintin" and @numero="1"]
    return insert node <auteur>Uderzo</auteur> 
-    as last into $v/auteur
+    as first into $v
 ```
+> * explanation :
+>    * filter the albums where  serie="tintin" and the attribute numero=1 then insert the element author at the first position of the album inside structure.
 14. Add an "éditeur" attribute "La plume" to album number 3 of the "Astérix" series :
 ```xq
  let $v := doc("albums.xml")//album[@serie="Astérix" and @numero="3"]
@@ -270,6 +297,8 @@ local:my-function("Hergé")
     insert attribute editeur {"La plume"} 
     into $v
 ```
+> * explanation :
+>    * filter the albums where serie="asterix" and the attribute numero=3 then insert the attribute editeur with the value la plume to it.
 15. Add the author "Hergé" to all albums of the "Tintin" series that don’t already have an author :
 ```xq
  let $tintin := doc("albums.xml")//album[@serie="Tintin"]
@@ -277,8 +306,10 @@ local:my-function("Hergé")
     for $v in $tintin
     where empty($album/auteur)
     insert node <auteur>Hergé</auteur> 
-    as last into $v/auteur
+    as first into $v/auteur
 ```
+> * explanation :
+>    * group albums with the serie="tintin", looping them and check if they have auteur element if they dont insrt the element auteur with the value herge at the first position.
 16. Change the "serie" attribute of all "Astérix" albums to "Astérix et Obélix" :
 ```xq
  let $as := doc("albums.xml")//album[@serie="Astérix"]
@@ -287,6 +318,8 @@ local:my-function("Hergé")
     modify 
       replace value of $v/@serie with "Astérix et Obélix"
 ```
+> * explanation :
+>    * group albums with value of serie = "asterix", looping them and change the value of the attribute by other value.
 17. Remove all albums from the "Tintin" series published before 1950 :
 ```xq
   let $old := doc("albums.xml")//album[@serie="Tintin" and xs:int($album/date/annee) < 1950]
@@ -295,6 +328,8 @@ local:my-function("Hergé")
     modify 
       delete node $v
 ```
+> * explanation :
+>    * filter albums with serie attribute equal to "Tintin" and year of publication < 1950 then delete them as simple as that.
 18. Increase the publication year of all "Astérix" albums after 1980 :
 ```xq
   let $v := doc("albums.xml")//album[@serie="Astérix" and xs:int($album/date/annee) > 1980]
@@ -303,6 +338,8 @@ local:my-function("Hergé")
     modify 
       replace value of $album/date/annee with xs:int($album/date/annee) + 1
 ```
+> * explanation :
+>    * filter albums with serie attribute equal to "asterix" and year of publication > 1980 then loop them and change the value of the element by incresing them by 1.
 19. Change the "album" element of the first album of each series to "Premier_album" :
 ```xq
  let $first := doc("albums.xml")//album[@numero="1"]
@@ -311,21 +348,26 @@ local:my-function("Hergé")
     modify
       rename node $v as "Premier_album"
 ```
+> * explanation :
+>    * filter albums with attribute number value equal to 1, then loop them and change the name of the element to premier_album.
 20. Add a new album at the end of the "Tintin" series :
 ```xq
-  let $last := last(doc("albums.xml")//album[@serie="Tintin"])
-  return
-    insert node
-      <album numero="25" serie="Tintin">
-        <titre>Le Nouveau Mystère</titre>
-        <auteur>Hergé</auteur>
-        <date>
-          <mois>mars</mois>
-          <annee>2025</annee>
-        </date>
-      </album>
-    as last into $last/following-sibling::*[1]
+let $albums := doc("albums.xml")//album[@serie="Tintin"]
+let $parent := $albums[1]/parent::*
+return
+  insert node
+    <album numero="25" serie="Tintin">
+      <titre>Le Nouveau Mystère</titre>
+      <auteur>Hergé</auteur>
+      <date>
+        <mois>mars</mois>
+        <annee>2025</annee>
+      </date>
+    </album>
+  as last into $parent
 ```
+> * explanation :
+>    * filter albums where the serie attrubite equal to tintin, store the parent then insert the new album at the last position inside the parent.
 ----
 ### Exercise two :
 1. Title, genre, and country for all films before 1970 :
